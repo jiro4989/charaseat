@@ -233,7 +233,7 @@ window.onload = function() {
 }
 
     </script>
- <style> /* {{{ */
+  <style> /* {{{ */
 
 body {
   width: 95%;
@@ -263,11 +263,10 @@ body {
   border-radius: 5px;
 }
 
-.charaTableArea,
-.main-area {
+.charaTableArea {
   position: absolute;
   margin-left: 5px;
-  width: 75%;
+  width: 200px;
   height: 80%;
   overflow-y: auto;
   border: 1px solid #000;
@@ -281,20 +280,9 @@ figure {
   text-align: center;
 }
 
-figcaption { margin-top: 8px; }
-figcaption:before {
+table caption:before {
   counter-increment: number;
-  content: "図" counter(number) " ";
-}
-
-img {
-  margin-top: 5px;
-  display: inline-block;
-  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8);
-}
-
-input [type="test"] {
-  width: 600px;
+  content: "表" counter(number) " ";
 }
 
   </style> <!-- }}} -->
@@ -304,17 +292,59 @@ input [type="test"] {
     <hr>
 
     <div class="charaTableArea">
-    <table id="charaTable" border="1">
-      <caption>表1 性格</caption>
-      <thead>
-        <tr style="background-color: yellow;">
-          <td>ID</td>
-          <td>項目</td>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
+      <table id="firstPersonTable" border="1">
+        <caption>一人称</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>ID</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="charaTableArea">
+      <table id="charaTable" border="1">
+        <caption>性格</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>ID</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="charaTableArea">
+      <table id="hariTable" border="1">
+        <caption>髪型</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>ID</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="charaTableArea">
+      <table id="optionTable" border="1">
+        <caption>オプション</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>ID</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
     </div>
 
   </body>
