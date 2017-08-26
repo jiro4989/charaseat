@@ -433,6 +433,55 @@ var HAIR_TEXT = [
 ];
 // }}}
 
+// {{{ 衣装
+var CLOTH_TEXT = [
+  "セーラー服 (ミニ)"
+  , "セーラー服 (ロング)"
+  , "セーラー服 (スケバン仕様)"
+  , "学生服"
+  , "学ラン"
+  , "学ラン (着崩し)"
+  , "体操着"
+  , "ジャージ"
+  , "水着"
+  , "ブルマ"
+  , "スーツ"
+  , "ジャケット"
+  , "背広"
+  , "ダッフルコート"
+  , "ワンピース"
+  , "タンクトップ"
+  , "ジーンズ"
+  , "穴あきジーンズ"
+  , "タイトスカート"
+  , "縞ソックス"
+  , "ポンチョ"
+  , "民族衣装"
+  , "毛皮"
+  , "ボロ布"
+  , "割烹着"
+  , "エプロン"
+  , "ドレス"
+  , "エプロンドレス"
+  , "メイド服"
+  , "執事服"
+  , "タキシード"
+  , "作業着"
+  , "黒装束"
+  , "白衣"
+  , "ブーツ"
+  , "ハイヒール"
+  , "パンプス"
+  , "スリッパ"
+  , "サンダル"
+  , "ながぐつ"
+  , "雨合羽"
+  , "コルセット"
+  , "拘束衣"
+  , "囚人服"
+];
+// }}}
+
 // {{{ オプション
 var OPTION_TEXT = [
   "鈴"
@@ -459,6 +508,10 @@ var OPTION_TEXT = [
   , "ウエストポーチ"
   , "キャップ"
   , "リボン"
+  , "切り傷"
+  , "四肢欠損"
+  , "眼帯"
+  , "あざ"
 ];
 // }}}
 
@@ -466,6 +519,7 @@ window.onload = function() {
   setDatas("firstPersonTable", FIRST_PERSON_TEXT);
   setDatas("charaTable", CHARA_TEXT);
   setDatas("hairTable", HAIR_TEXT);
+  setDatas("clothTable", CLOTH_TEXT);
   setDatas("optionTable", OPTION_TEXT);
 }
 
@@ -562,6 +616,20 @@ table caption:before {
     <div class="charaTableArea">
       <table id="hairTable" border="1">
         <caption>髪型</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>ID</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="charaTableArea">
+      <table id="clothTable" border="1">
+        <caption>服装</caption>
         <thead>
           <tr style="background-color: yellow;">
             <td>ID</td>
