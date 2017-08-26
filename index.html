@@ -210,10 +210,10 @@ var CHARA_TEXT = [
 
 window.onload = function() {
   var tbody = document.getElementById("charaTable").getElementsByTagName("tbody")[0];
-  var tr = document.createElement("tr");
-
   for (var i=0; i<CHARA_TEXT.length; i++) {
     var text = CHARA_TEXT[i];
+
+    var tr = document.createElement("tr");
     var idTd = document.createElement("td");
     var contentTd = document.createElement("td");
 
