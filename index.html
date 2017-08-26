@@ -210,7 +210,7 @@ var CHARA_TEXT = [
 ];
 
 window.onload = function() {
-  var tbody = document.getElementById("charaTable").getElementsByTagName("tbody");
+  var tbody = document.getElementById("charaTable").getElementsByTagName("tbody")[0];
   var tr = document.createElement("tr");
 
   for (var i=0; i<CHARA_TEXT.length; i++) {
