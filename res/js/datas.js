@@ -23,6 +23,7 @@ function setDatas(tableId, datas) {
 }
 
 function setOnClick() {
+  console.log("setOnClick");
   var inputs = document.getElementsByTagName("input");
   for (var i=0; i<inputs.length; i++) {
     var input = inputs[i];
@@ -33,6 +34,7 @@ function setOnClick() {
 }
 
 function updateRecords() {
+  console.log("updateRecords");
   var textarea = document.getElementById("selectedTextArea");
   textarea.innerHTML = "";
 
