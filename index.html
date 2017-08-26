@@ -450,6 +450,7 @@ var CLOTH_TEXT = [
   , "背広"
   , "ダッフルコート"
   , "ワンピース"
+  , "ネグリジェ"
   , "タンクトップ"
   , "ジーンズ"
   , "穴あきジーンズ"
@@ -583,7 +584,22 @@ table caption:before {
   </head>
   <body>
     <h1>キャラ設定シート</h1>
-    <hr>
+    <input type="button" value="設定読み込み">
+    <input type="button" value="設定出力">
+    <input type="button" value="設定クリア"> 
+    <div class="charaTableArea">
+      <table id="firstPersonTable" border="1">
+        <caption>チェックした要素</caption>
+        <thead>
+          <tr style="background-color: yellow;">
+            <td>分類</td>
+            <td>項目</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
 
     <div class="charaTableArea">
       <table id="firstPersonTable" border="1">
