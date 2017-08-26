@@ -233,11 +233,79 @@ window.onload = function() {
 }
 
     </script>
+ <style> /* {{{ */
+
+body {
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  counter-reset: number 0;
+}
+
+.main-content {
+  width: 100%;
+  height: 80%;
+}
+
+.menu-area,
+.main-area {
+  display: inline-block;
+  height: 100%;
+  padding: 5px 10px 5px;
+}
+
+.menu-area  {
+  position: relative;
+  width: 15%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.charaTableArea,
+.main-area {
+  position: absolute;
+  margin-left: 5px;
+  width: 75%;
+  height: 80%;
+  overflow-y: auto;
+  border: 1px solid #000;
+}
+
+label { border-radius: 5px; }
+label:hover { background-color: lightblue; }
+
+figure {
+  display: inline-block;
+  text-align: center;
+}
+
+figcaption { margin-top: 8px; }
+figcaption:before {
+  counter-increment: number;
+  content: "図" counter(number) " ";
+}
+
+img {
+  margin-top: 5px;
+  display: inline-block;
+  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8);
+}
+
+input [type="test"] {
+  width: 600px;
+}
+
+  </style> <!-- }}} -->
   </head>
   <body>
     <h1>キャラ設定シート</h1>
     <hr>
 
+    <div class="charaTableArea">
+    
+    </div>
     <table id="charaTable" border="1">
       <caption>表1 性格</caption>
       <thead>
