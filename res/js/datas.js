@@ -1,4 +1,5 @@
 function setDatas(tableId, datas) {
+  console.log("setDatas");
   var tbody = document.getElementById(tableId).getElementsByTagName("tbody")[0];
   for (var i=0; i<datas.length; i++) {
     var text = datas[i];
