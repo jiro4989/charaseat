@@ -214,22 +214,20 @@ window.onload = function() {
 
   for (var i=0; i<CHARA_TEXT.length; i++) {
     var text = CHARA_TEXT[i];
-    for (var j=0; j<3; j++) {
-      var idTd = document.createElement("td");
-      var contentTd = document.createElement("td");
+    var idTd = document.createElement("td");
+    var contentTd = document.createElement("td");
 
-      var checkbox = document.createElement("input");
-      var label = document.createElement("label");
-      checkbox.type = "checkbox";
-      checkbox.value = text;
-      label.append(checkbox);
-      label.append(text);
+    var checkbox = document.createElement("input");
+    var label = document.createElement("label");
+    checkbox.type = "checkbox";
+    checkbox.value = text;
+    label.append(checkbox);
+    label.append(text);
 
-      contentTd.append(label);
+    contentTd.append(label);
 
-      tr.append(idTd);
-      tr.append(contentTd);
-    }
+    tr.append(idTd);
+    tr.append(contentTd);
     tbody.append(tr);
   }
 }
