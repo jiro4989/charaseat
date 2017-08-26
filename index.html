@@ -210,7 +210,7 @@ var CHARA_TEXT = [
 ];
 
 window.onload = function() {
-  var charaTable = document.getElementById("charaTable");
+  var tbody = document.getElementById("charaTable").getElementsByTagName("tbody");
   var tr = document.createElement("tr");
 
   for (var i=0; i<CHARA_TEXT.length; i++) {
@@ -231,7 +231,7 @@ window.onload = function() {
       tr.append(idTd);
       tr.append(contentTd);
     }
-    charaTable.append(tr);
+    tbody.append(tr);
   }
 }
 
@@ -243,10 +243,14 @@ window.onload = function() {
 
     <table id="charaTable">
       <caption>表1 性格</caption>
-      <tr>
-        <td>ID</td>
-        <td>項目</td>
-      </tr>
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>項目</td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
     </table>
 
   </body>
