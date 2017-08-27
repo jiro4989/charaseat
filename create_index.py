@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+from datafile import datetime
 from os.path import splitext, basename
 
 def main():
@@ -71,6 +72,9 @@ def main():
         while line:
             if "{target}" in line:
                 htmllines.append(text)
+            elif "{time}" in line:
+                now = datetime.now().strftime("%y/%m/%d %h:%M:%s")
+                htmllines.append(now)
             else:
                 htmllines.append(line)
             line = template.readline()
