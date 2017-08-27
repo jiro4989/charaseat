@@ -522,7 +522,6 @@ window.onload = function() {
   setDatas("hairTable", HAIR_TEXT, "髪型");
   setDatas("clothTable", CLOTH_TEXT, "衣類");
   setDatas("optionTable", OPTION_TEXT, "オプション");
-  setOnClick();
 }
 
 function setDatas(tableId, datas, title) {
@@ -539,6 +538,7 @@ function setDatas(tableId, datas, title) {
     var label = document.createElement("label");
     checkbox.type = "checkbox";
     checkbox.value = title + ":" + text;
+    checkbox.onclick = "updateRecords();";
     label.append(checkbox);
     label.append(text);
 
@@ -547,19 +547,6 @@ function setDatas(tableId, datas, title) {
     tr.append(idTd);
     tr.append(contentTd);
     tbody.append(tr);
-  }
-}
-
-function setOnClick() {
-  console.log("setOnClick");
-  var inputs = document.getElementsByTagName("input");
-  for (var i=0; i<inputs.length; i++) {
-    var input = inputs[i];
-          if (input.type == "check") {
-    input.onclick = function() {
-      updateRecords();
-    }
-          }
   }
 }
 
