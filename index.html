@@ -538,7 +538,9 @@ function setDatas(tableId, datas, title) {
     var label = document.createElement("label");
     checkbox.type = "checkbox";
     checkbox.value = title + ":" + text;
-    checkbox.onclick = updateRecords();
+    checkbox.onclick = function() {
+      updateRecords();
+    }
     label.append(checkbox);
     label.append(text);
 
