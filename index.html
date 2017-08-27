@@ -85,6 +85,7 @@ table caption:before {
     <div class="optionarea">
       <h2>設定項目</h2>
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(一人称);" />
   <table border="1">
     <caption>一人称</caption>
     <thead>
@@ -93,94 +94,95 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="一人称:私（わたし）" onclick="updateRecords();" />私（わたし）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:私（わたくし）" onclick="updateRecords();" />私（わたくし）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:自分（じぶん）" onclick="updateRecords();" />自分（じぶん）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:僕（ぼく）" onclick="updateRecords();" />僕（ぼく）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:俺（おれ）" onclick="updateRecords();" />俺（おれ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:儂" onclick="updateRecords();" />儂</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:私（わし）" onclick="updateRecords();" />私（わし）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あたし" onclick="updateRecords();" />あたし</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あたくし" onclick="updateRecords();" />あたくし</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:アテクシ" onclick="updateRecords();" />アテクシ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あたい" onclick="updateRecords();" />あたい</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わい" onclick="updateRecords();" />わい</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わて" onclick="updateRecords();" />わて</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あて" onclick="updateRecords();" />あて</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わだす" onclick="updateRecords();" />わだす</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あだす" onclick="updateRecords();" />あだす</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わす" onclick="updateRecords();" />わす</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:内（うち）" onclick="updateRecords();" />内（うち）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:己等（おいら）" onclick="updateRecords();" />己等（おいら）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:俺ら（おら）" onclick="updateRecords();" />俺ら（おら）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:おい" onclick="updateRecords();" />おい</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:おいどん" onclick="updateRecords();" />おいどん</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:うら" onclick="updateRecords();" />うら</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わ" onclick="updateRecords();" />わ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わー" onclick="updateRecords();" />わー</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:ぼくちゃん" onclick="updateRecords();" />ぼくちゃん</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:ぼくちん" onclick="updateRecords();" />ぼくちん</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:おれっち" onclick="updateRecords();" />おれっち</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:おりゃあ" onclick="updateRecords();" />おりゃあ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:ぼかぁ" onclick="updateRecords();" />ぼかぁ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わたしゃ" onclick="updateRecords();" />わたしゃ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あたしゃ" onclick="updateRecords();" />あたしゃ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わしゃあ" onclick="updateRecords();" />わしゃあ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:おらぁ" onclick="updateRecords();" />おらぁ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:ミー" onclick="updateRecords();" />ミー</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:ビジネス文書" onclick="updateRecords();" />ビジネス文書</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:当方（とうほう）" onclick="updateRecords();" />当方（とうほう）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:職業" onclick="updateRecords();" />職業</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:本官・小官" onclick="updateRecords();" />本官・小官</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:本職・小職" onclick="updateRecords();" />本職・小職</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:当職・弊職" onclick="updateRecords();" />当職・弊職</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:愚僧（ぐそう）" onclick="updateRecords();" />愚僧（ぐそう）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:拙僧" onclick="updateRecords();" />拙僧</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:愚禿（ぐとく）" onclick="updateRecords();" />愚禿（ぐとく）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:団体・組織" onclick="updateRecords();" />団体・組織</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:当○・弊○" onclick="updateRecords();" />当○・弊○</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:無線" onclick="updateRecords();" />無線</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:当局（とうきょく）" onclick="updateRecords();" />当局（とうきょく）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:こちら" onclick="updateRecords();" />こちら</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:古風" onclick="updateRecords();" />古風</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:我輩" onclick="updateRecords();" />我輩</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:吾輩" onclick="updateRecords();" />吾輩</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:我が輩" onclick="updateRecords();" />我が輩</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:吾が輩（わがはい）" onclick="updateRecords();" />吾が輩（わがはい）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:某（それがし）" onclick="updateRecords();" />某（それがし）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:朕（チン）" onclick="updateRecords();" />朕（チン）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:麻呂・麿（まろ）" onclick="updateRecords();" />麻呂・麿（まろ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あ" onclick="updateRecords();" />あ</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:我・吾（われ・わ）" onclick="updateRecords();" />我・吾（われ・わ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:余・予（よ）" onclick="updateRecords();" />余・予（よ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:小生（しょうせい）" onclick="updateRecords();" />小生（しょうせい）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:吾人（ごじん）" onclick="updateRecords();" />吾人（ごじん）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:愚生（ぐせい）" onclick="updateRecords();" />愚生（ぐせい）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:非才・不才・不佞（ひさい・ふさい・ふねい）" onclick="updateRecords();" />非才・不才・不佞（ひさい・ふさい・ふねい）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あっし" onclick="updateRecords();" />あっし</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あちき" onclick="updateRecords();" />あちき</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:わっち" onclick="updateRecords();" />わっち</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:妾（わらわ）" onclick="updateRecords();" />妾（わらわ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:拙者（せっしゃ）" onclick="updateRecords();" />拙者（せっしゃ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:身ども（みども）" onclick="updateRecords();" />身ども（みども）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:僕（やつがれ）" onclick="updateRecords();" />僕（やつがれ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:手前（てまえ）" onclick="updateRecords();" />手前（てまえ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:此方（こなた）" onclick="updateRecords();" />此方（こなた）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:此方人等（こちとら）" onclick="updateRecords();" />此方人等（こちとら）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:私め（わたしめ）（わたくしめ）" onclick="updateRecords();" />私め（わたしめ）（わたくしめ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:傲慢" onclick="updateRecords();" />傲慢</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:俺様（おれさま）" onclick="updateRecords();" />俺様（おれさま）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:あたくし" onclick="updateRecords();" />あたくし</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:一人称複数代名詞" onclick="updateRecords();" />一人称複数代名詞</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:〜達（たち）" onclick="updateRecords();" />〜達（たち）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:〜共（ども）" onclick="updateRecords();" />〜共（ども）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:〜等（ら）" onclick="updateRecords();" />〜等（ら）</label></td></tr>
-<tr><td><label><input type="checkbox" value="一人称:我々（われわれ）" onclick="updateRecords();" />我々（われわれ）</label></td></tr>
+      <tr><td><label><input type="checkbox" name="一人称" value="一人称:私（わたし）" onclick="updateRecords();" />私（わたし）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:私（わたくし）" onclick="updateRecords();" />私（わたくし）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:自分（じぶん）" onclick="updateRecords();" />自分（じぶん）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:僕（ぼく）" onclick="updateRecords();" />僕（ぼく）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:俺（おれ）" onclick="updateRecords();" />俺（おれ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:儂" onclick="updateRecords();" />儂</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:私（わし）" onclick="updateRecords();" />私（わし）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あたし" onclick="updateRecords();" />あたし</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あたくし" onclick="updateRecords();" />あたくし</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:アテクシ" onclick="updateRecords();" />アテクシ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あたい" onclick="updateRecords();" />あたい</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わい" onclick="updateRecords();" />わい</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わて" onclick="updateRecords();" />わて</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あて" onclick="updateRecords();" />あて</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わだす" onclick="updateRecords();" />わだす</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あだす" onclick="updateRecords();" />あだす</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わす" onclick="updateRecords();" />わす</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:内（うち）" onclick="updateRecords();" />内（うち）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:己等（おいら）" onclick="updateRecords();" />己等（おいら）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:俺ら（おら）" onclick="updateRecords();" />俺ら（おら）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:おい" onclick="updateRecords();" />おい</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:おいどん" onclick="updateRecords();" />おいどん</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:うら" onclick="updateRecords();" />うら</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わ" onclick="updateRecords();" />わ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わー" onclick="updateRecords();" />わー</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:ぼくちゃん" onclick="updateRecords();" />ぼくちゃん</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:ぼくちん" onclick="updateRecords();" />ぼくちん</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:おれっち" onclick="updateRecords();" />おれっち</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:おりゃあ" onclick="updateRecords();" />おりゃあ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:ぼかぁ" onclick="updateRecords();" />ぼかぁ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わたしゃ" onclick="updateRecords();" />わたしゃ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あたしゃ" onclick="updateRecords();" />あたしゃ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わしゃあ" onclick="updateRecords();" />わしゃあ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:おらぁ" onclick="updateRecords();" />おらぁ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:ミー" onclick="updateRecords();" />ミー</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:ビジネス文書" onclick="updateRecords();" />ビジネス文書</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:当方（とうほう）" onclick="updateRecords();" />当方（とうほう）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:職業" onclick="updateRecords();" />職業</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:本官・小官" onclick="updateRecords();" />本官・小官</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:本職・小職" onclick="updateRecords();" />本職・小職</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:当職・弊職" onclick="updateRecords();" />当職・弊職</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:愚僧（ぐそう）" onclick="updateRecords();" />愚僧（ぐそう）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:拙僧" onclick="updateRecords();" />拙僧</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:愚禿（ぐとく）" onclick="updateRecords();" />愚禿（ぐとく）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:団体・組織" onclick="updateRecords();" />団体・組織</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:当○・弊○" onclick="updateRecords();" />当○・弊○</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:無線" onclick="updateRecords();" />無線</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:当局（とうきょく）" onclick="updateRecords();" />当局（とうきょく）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:こちら" onclick="updateRecords();" />こちら</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:古風" onclick="updateRecords();" />古風</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:我輩" onclick="updateRecords();" />我輩</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:吾輩" onclick="updateRecords();" />吾輩</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:我が輩" onclick="updateRecords();" />我が輩</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:吾が輩（わがはい）" onclick="updateRecords();" />吾が輩（わがはい）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:某（それがし）" onclick="updateRecords();" />某（それがし）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:朕（チン）" onclick="updateRecords();" />朕（チン）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:麻呂・麿（まろ）" onclick="updateRecords();" />麻呂・麿（まろ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あ" onclick="updateRecords();" />あ</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:我・吾（われ・わ）" onclick="updateRecords();" />我・吾（われ・わ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:余・予（よ）" onclick="updateRecords();" />余・予（よ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:小生（しょうせい）" onclick="updateRecords();" />小生（しょうせい）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:吾人（ごじん）" onclick="updateRecords();" />吾人（ごじん）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:愚生（ぐせい）" onclick="updateRecords();" />愚生（ぐせい）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:非才・不才・不佞（ひさい・ふさい・ふねい）" onclick="updateRecords();" />非才・不才・不佞（ひさい・ふさい・ふねい）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あっし" onclick="updateRecords();" />あっし</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あちき" onclick="updateRecords();" />あちき</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:わっち" onclick="updateRecords();" />わっち</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:妾（わらわ）" onclick="updateRecords();" />妾（わらわ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:拙者（せっしゃ）" onclick="updateRecords();" />拙者（せっしゃ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:身ども（みども）" onclick="updateRecords();" />身ども（みども）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:僕（やつがれ）" onclick="updateRecords();" />僕（やつがれ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:手前（てまえ）" onclick="updateRecords();" />手前（てまえ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:此方（こなた）" onclick="updateRecords();" />此方（こなた）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:此方人等（こちとら）" onclick="updateRecords();" />此方人等（こちとら）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:私め（わたしめ）（わたくしめ）" onclick="updateRecords();" />私め（わたしめ）（わたくしめ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:傲慢" onclick="updateRecords();" />傲慢</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:俺様（おれさま）" onclick="updateRecords();" />俺様（おれさま）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:あたくし" onclick="updateRecords();" />あたくし</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:一人称複数代名詞" onclick="updateRecords();" />一人称複数代名詞</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:〜達（たち）" onclick="updateRecords();" />〜達（たち）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:〜共（ども）" onclick="updateRecords();" />〜共（ども）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:〜等（ら）" onclick="updateRecords();" />〜等（ら）</label></td></tr>
+<tr><td><label><input type="checkbox" name="一人称" value="一人称:我々（われわれ）" onclick="updateRecords();" />我々（われわれ）</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(二人称);" />
   <table border="1">
     <caption>二人称</caption>
     <thead>
@@ -189,116 +191,117 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="二人称:あなた" onclick="updateRecords();" />あなた</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:そちら" onclick="updateRecords();" />そちら</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お宅" onclick="updateRecords();" />お宅</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:僕" onclick="updateRecords();" />僕</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴社" onclick="updateRecords();" />貴社</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御社（おんしゃ）" onclick="updateRecords();" />御社（おんしゃ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴行" onclick="updateRecords();" />貴行</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴紙" onclick="updateRecords();" />貴紙</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴官" onclick="updateRecords();" />貴官</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴職" onclick="updateRecords();" />貴職</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴兄" onclick="updateRecords();" />貴兄</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴姉" onclick="updateRecords();" />貴姉</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:卿" onclick="updateRecords();" />卿</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴兄" onclick="updateRecords();" />貴兄</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴君" onclick="updateRecords();" />貴君</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お前" onclick="updateRecords();" />お前</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:あんた" onclick="updateRecords();" />あんた</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お前さん" onclick="updateRecords();" />お前さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:じぶん（自分）" onclick="updateRecords();" />じぶん（自分）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:相手の名字（姓）" onclick="updateRecords();" />相手の名字（姓）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:相手の名前（名）" onclick="updateRecords();" />相手の名前（名）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:君（きみ）" onclick="updateRecords();" />君（きみ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:チミ" onclick="updateRecords();" />チミ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:わい" onclick="updateRecords();" />わい</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:てめぇ" onclick="updateRecords();" />てめぇ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おのれ" onclick="updateRecords();" />おのれ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おどれ" onclick="updateRecords();" />おどれ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おんどれ" onclick="updateRecords();" />おんどれ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おどりゃ" onclick="updateRecords();" />おどりゃ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おんどりゃあ" onclick="updateRecords();" />おんどりゃあ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:われ" onclick="updateRecords();" />われ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴様（きさま、きさん）" onclick="updateRecords();" />貴様（きさま、きさん）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:我（われ）" onclick="updateRecords();" />我（われ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:わ" onclick="updateRecords();" />わ</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:汝（なんじ）" onclick="updateRecords();" />汝（なんじ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:其方（そち、そなた）" onclick="updateRecords();" />其方（そち、そなた）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:其の方（そのほう）" onclick="updateRecords();" />其の方（そのほう）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴君（同輩" onclick="updateRecords();" />貴君（同輩</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:目下）" onclick="updateRecords();" />目下）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴殿" onclick="updateRecords();" />貴殿</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴台" onclick="updateRecords();" />貴台</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:賢台" onclick="updateRecords();" />賢台</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:尊台" onclick="updateRecords();" />尊台</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:老台" onclick="updateRecords();" />老台</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:貴公" onclick="updateRecords();" />貴公</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:主（ぬし）" onclick="updateRecords();" />主（ぬし）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お主" onclick="updateRecords();" />お主</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:汝（うぬ）" onclick="updateRecords();" />汝（うぬ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御身（おんみ、おみ）" onclick="updateRecords();" />御身（おんみ、おみ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御事（おこと）" onclick="updateRecords();" />御事（おこと）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御許（おもと）" onclick="updateRecords();" />御許（おもと）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:此方（こなた）" onclick="updateRecords();" />此方（こなた）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:血縁関係" onclick="updateRecords();" />血縁関係</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お兄さん" onclick="updateRecords();" />お兄さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お姉さん" onclick="updateRecords();" />お姉さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おじさん" onclick="updateRecords();" />おじさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おばさん" onclick="updateRecords();" />おばさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おじいさん" onclick="updateRecords();" />おじいさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おばあさん" onclick="updateRecords();" />おばあさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:親父" onclick="updateRecords();" />親父</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お袋" onclick="updateRecords();" />お袋</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:兄貴" onclick="updateRecords();" />兄貴</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:姉貴" onclick="updateRecords();" />姉貴</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おじき" onclick="updateRecords();" />おじき</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おっさん" onclick="updateRecords();" />おっさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:おばはん" onclick="updateRecords();" />おばはん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:爺（じじい）" onclick="updateRecords();" />爺（じじい）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:婆婆（ばばあ）" onclick="updateRecords();" />婆婆（ばばあ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:爺爺（じいじ）" onclick="updateRecords();" />爺爺（じいじ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:婆婆（ばあば）" onclick="updateRecords();" />婆婆（ばあば）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:相手の職務上の立場" onclick="updateRecords();" />相手の職務上の立場</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:先生" onclick="updateRecords();" />先生</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:師匠" onclick="updateRecords();" />師匠</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:師" onclick="updateRecords();" />師</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:老師" onclick="updateRecords();" />老師</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お師さん" onclick="updateRecords();" />お師さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お師様" onclick="updateRecords();" />お師様</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:尊師" onclick="updateRecords();" />尊師</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:先輩" onclick="updateRecords();" />先輩</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:陛下" onclick="updateRecords();" />陛下</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:殿下" onclick="updateRecords();" />殿下</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:閣下" onclick="updateRecords();" />閣下</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:猊下" onclick="updateRecords();" />猊下</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:主上（おかみ）" onclick="updateRecords();" />主上（おかみ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:上様" onclick="updateRecords();" />上様</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:殿" onclick="updateRecords();" />殿</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お殿さん" onclick="updateRecords();" />お殿さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:王" onclick="updateRecords();" />王</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:姫" onclick="updateRecords();" />姫</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:姫様" onclick="updateRecords();" />姫様</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お姫（ひい）さん" onclick="updateRecords();" />お姫（ひい）さん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御前" onclick="updateRecords();" />御前</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:御前様（ごぜん" onclick="updateRecords();" />御前様（ごぜん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:ごぜんさま）" onclick="updateRecords();" />ごぜんさま）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:だんさん" onclick="updateRecords();" />だんさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:ごりょんさん" onclick="updateRecords();" />ごりょんさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:ぼんち" onclick="updateRecords();" />ぼんち</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:いとさん" onclick="updateRecords();" />いとさん</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:お客様" onclick="updateRecords();" />お客様</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:患者様" onclick="updateRecords();" />患者様</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:小僧（こぞう）" onclick="updateRecords();" />小僧（こぞう）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:小童（こわっぱ）" onclick="updateRecords();" />小童（こわっぱ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:小娘（こむすめ）" onclick="updateRecords();" />小娘（こむすめ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:女（おんな）" onclick="updateRecords();" />女（おんな）</label></td></tr>
-<tr><td><label><input type="checkbox" value="二人称:餓鬼(ガキ)" onclick="updateRecords();" />餓鬼(ガキ)</label></td></tr>
+      <tr><td><label><input type="checkbox" name="二人称" value="二人称:あなた" onclick="updateRecords();" />あなた</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:そちら" onclick="updateRecords();" />そちら</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お宅" onclick="updateRecords();" />お宅</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:僕" onclick="updateRecords();" />僕</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴社" onclick="updateRecords();" />貴社</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御社（おんしゃ）" onclick="updateRecords();" />御社（おんしゃ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴行" onclick="updateRecords();" />貴行</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴紙" onclick="updateRecords();" />貴紙</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴官" onclick="updateRecords();" />貴官</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴職" onclick="updateRecords();" />貴職</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴兄" onclick="updateRecords();" />貴兄</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴姉" onclick="updateRecords();" />貴姉</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:卿" onclick="updateRecords();" />卿</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴兄" onclick="updateRecords();" />貴兄</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴君" onclick="updateRecords();" />貴君</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お前" onclick="updateRecords();" />お前</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:あんた" onclick="updateRecords();" />あんた</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お前さん" onclick="updateRecords();" />お前さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:じぶん（自分）" onclick="updateRecords();" />じぶん（自分）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:相手の名字（姓）" onclick="updateRecords();" />相手の名字（姓）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:相手の名前（名）" onclick="updateRecords();" />相手の名前（名）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:君（きみ）" onclick="updateRecords();" />君（きみ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:チミ" onclick="updateRecords();" />チミ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:わい" onclick="updateRecords();" />わい</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:てめぇ" onclick="updateRecords();" />てめぇ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おのれ" onclick="updateRecords();" />おのれ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おどれ" onclick="updateRecords();" />おどれ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おんどれ" onclick="updateRecords();" />おんどれ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おどりゃ" onclick="updateRecords();" />おどりゃ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おんどりゃあ" onclick="updateRecords();" />おんどりゃあ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:われ" onclick="updateRecords();" />われ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴様（きさま、きさん）" onclick="updateRecords();" />貴様（きさま、きさん）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:我（われ）" onclick="updateRecords();" />我（われ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:わ" onclick="updateRecords();" />わ</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:汝（なんじ）" onclick="updateRecords();" />汝（なんじ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:其方（そち、そなた）" onclick="updateRecords();" />其方（そち、そなた）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:其の方（そのほう）" onclick="updateRecords();" />其の方（そのほう）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴君（同輩" onclick="updateRecords();" />貴君（同輩</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:目下）" onclick="updateRecords();" />目下）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴殿" onclick="updateRecords();" />貴殿</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴台" onclick="updateRecords();" />貴台</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:賢台" onclick="updateRecords();" />賢台</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:尊台" onclick="updateRecords();" />尊台</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:老台" onclick="updateRecords();" />老台</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:貴公" onclick="updateRecords();" />貴公</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:主（ぬし）" onclick="updateRecords();" />主（ぬし）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お主" onclick="updateRecords();" />お主</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:汝（うぬ）" onclick="updateRecords();" />汝（うぬ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御身（おんみ、おみ）" onclick="updateRecords();" />御身（おんみ、おみ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御事（おこと）" onclick="updateRecords();" />御事（おこと）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御許（おもと）" onclick="updateRecords();" />御許（おもと）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:此方（こなた）" onclick="updateRecords();" />此方（こなた）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:血縁関係" onclick="updateRecords();" />血縁関係</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お兄さん" onclick="updateRecords();" />お兄さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お姉さん" onclick="updateRecords();" />お姉さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おじさん" onclick="updateRecords();" />おじさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おばさん" onclick="updateRecords();" />おばさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おじいさん" onclick="updateRecords();" />おじいさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おばあさん" onclick="updateRecords();" />おばあさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:親父" onclick="updateRecords();" />親父</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お袋" onclick="updateRecords();" />お袋</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:兄貴" onclick="updateRecords();" />兄貴</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:姉貴" onclick="updateRecords();" />姉貴</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おじき" onclick="updateRecords();" />おじき</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おっさん" onclick="updateRecords();" />おっさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:おばはん" onclick="updateRecords();" />おばはん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:爺（じじい）" onclick="updateRecords();" />爺（じじい）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:婆婆（ばばあ）" onclick="updateRecords();" />婆婆（ばばあ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:爺爺（じいじ）" onclick="updateRecords();" />爺爺（じいじ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:婆婆（ばあば）" onclick="updateRecords();" />婆婆（ばあば）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:相手の職務上の立場" onclick="updateRecords();" />相手の職務上の立場</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:先生" onclick="updateRecords();" />先生</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:師匠" onclick="updateRecords();" />師匠</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:師" onclick="updateRecords();" />師</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:老師" onclick="updateRecords();" />老師</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お師さん" onclick="updateRecords();" />お師さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お師様" onclick="updateRecords();" />お師様</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:尊師" onclick="updateRecords();" />尊師</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:先輩" onclick="updateRecords();" />先輩</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:陛下" onclick="updateRecords();" />陛下</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:殿下" onclick="updateRecords();" />殿下</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:閣下" onclick="updateRecords();" />閣下</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:猊下" onclick="updateRecords();" />猊下</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:主上（おかみ）" onclick="updateRecords();" />主上（おかみ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:上様" onclick="updateRecords();" />上様</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:殿" onclick="updateRecords();" />殿</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お殿さん" onclick="updateRecords();" />お殿さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:王" onclick="updateRecords();" />王</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:姫" onclick="updateRecords();" />姫</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:姫様" onclick="updateRecords();" />姫様</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お姫（ひい）さん" onclick="updateRecords();" />お姫（ひい）さん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御前" onclick="updateRecords();" />御前</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:御前様（ごぜん" onclick="updateRecords();" />御前様（ごぜん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:ごぜんさま）" onclick="updateRecords();" />ごぜんさま）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:だんさん" onclick="updateRecords();" />だんさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:ごりょんさん" onclick="updateRecords();" />ごりょんさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:ぼんち" onclick="updateRecords();" />ぼんち</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:いとさん" onclick="updateRecords();" />いとさん</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:お客様" onclick="updateRecords();" />お客様</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:患者様" onclick="updateRecords();" />患者様</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:小僧（こぞう）" onclick="updateRecords();" />小僧（こぞう）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:小童（こわっぱ）" onclick="updateRecords();" />小童（こわっぱ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:小娘（こむすめ）" onclick="updateRecords();" />小娘（こむすめ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:女（おんな）" onclick="updateRecords();" />女（おんな）</label></td></tr>
+<tr><td><label><input type="checkbox" name="二人称" value="二人称:餓鬼(ガキ)" onclick="updateRecords();" />餓鬼(ガキ)</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(性格);" />
   <table border="1">
     <caption>性格</caption>
     <thead>
@@ -307,199 +310,200 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="性格:明るい" onclick="updateRecords();" />明るい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:あざとい" onclick="updateRecords();" />あざとい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:姉御肌" onclick="updateRecords();" />姉御肌</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:アホ" onclick="updateRecords();" />アホ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:あほかわいい" onclick="updateRecords();" />あほかわいい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:アホの子" onclick="updateRecords();" />アホの子</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:意地っ張り" onclick="updateRecords();" />意地っ張り</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:一途" onclick="updateRecords();" />一途</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:一匹狼" onclick="updateRecords();" />一匹狼</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:一本気" onclick="updateRecords();" />一本気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:癒し系" onclick="updateRecords();" />癒し系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:陰気" onclick="updateRecords();" />陰気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:陰鬱" onclick="updateRecords();" />陰鬱</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:うざかわいい" onclick="updateRecords();" />うざかわいい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:内気" onclick="updateRecords();" />内気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:移り気" onclick="updateRecords();" />移り気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:おおらか" onclick="updateRecords();" />おおらか</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:奥手" onclick="updateRecords();" />奥手</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:臆病" onclick="updateRecords();" />臆病</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:穏やか" onclick="updateRecords();" />穏やか</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:お調子者" onclick="updateRecords();" />お調子者</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:おっとり" onclick="updateRecords();" />おっとり</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:男嫌い" onclick="updateRecords();" />男嫌い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:男好き" onclick="updateRecords();" />男好き</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:男勝り" onclick="updateRecords();" />男勝り</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:おとなしい" onclick="updateRecords();" />おとなしい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:俺様" onclick="updateRecords();" />俺様</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:温厚" onclick="updateRecords();" />温厚</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:女嫌い" onclick="updateRecords();" />女嫌い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:女好き" onclick="updateRecords();" />女好き</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:快活" onclick="updateRecords();" />快活</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:堅物" onclick="updateRecords();" />堅物</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:勝ち気" onclick="updateRecords();" />勝ち気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:活発" onclick="updateRecords();" />活発</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:家庭的" onclick="updateRecords();" />家庭的</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:構ってちゃん" onclick="updateRecords();" />構ってちゃん</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:寡黙" onclick="updateRecords();" />寡黙</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:頑固" onclick="updateRecords();" />頑固</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:寛大" onclick="updateRecords();" />寛大</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ガンデレ" onclick="updateRecords();" />ガンデレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:寛容" onclick="updateRecords();" />寛容</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:キザ" onclick="updateRecords();" />キザ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:厳格" onclick="updateRecords();" />厳格</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:気まぐれ" onclick="updateRecords();" />気まぐれ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:生真面目" onclick="updateRecords();" />生真面目</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:器用貧乏" onclick="updateRecords();" />器用貧乏</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:気弱" onclick="updateRecords();" />気弱</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:義理堅い" onclick="updateRecords();" />義理堅い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:綺麗好き" onclick="updateRecords();" />綺麗好き</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:切れ者" onclick="updateRecords();" />切れ者</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:クーデレ" onclick="updateRecords();" />クーデレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:クール" onclick="updateRecords();" />クール</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:苦労人" onclick="updateRecords();" />苦労人</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:計算高い" onclick="updateRecords();" />計算高い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ケチ" onclick="updateRecords();" />ケチ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ゲス" onclick="updateRecords();" />ゲス</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:潔癖症" onclick="updateRecords();" />潔癖症</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:健気" onclick="updateRecords();" />健気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:元気" onclick="updateRecords();" />元気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:現実主義者" onclick="updateRecords();" />現実主義者</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:小悪魔" onclick="updateRecords();" />小悪魔</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:狡猾" onclick="updateRecords();" />狡猾</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:硬派" onclick="updateRecords();" />硬派</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:好奇心" onclick="updateRecords();" />好奇心</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:高慢" onclick="updateRecords();" />高慢</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:傲慢" onclick="updateRecords();" />傲慢</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:サディスト" onclick="updateRecords();" />サディスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:寂しがり" onclick="updateRecords();" />寂しがり</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:残虐" onclick="updateRecords();" />残虐</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:残忍" onclick="updateRecords();" />残忍</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:自己中心的" onclick="updateRecords();" />自己中心的</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:自信家" onclick="updateRecords();" />自信家</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:したたか" onclick="updateRecords();" />したたか</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:しっかり者" onclick="updateRecords();" />しっかり者</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:嫉妬深い (やきもち焼き)" onclick="updateRecords();" />嫉妬深い (やきもち焼き)</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:シスコン" onclick="updateRecords();" />シスコン</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:慈悲深い" onclick="updateRecords();" />慈悲深い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:社交的" onclick="updateRecords();" />社交的</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:秀才" onclick="updateRecords();" />秀才</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:純情" onclick="updateRecords();" />純情</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:純真" onclick="updateRecords();" />純真</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:純粋" onclick="updateRecords();" />純粋</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:性悪" onclick="updateRecords();" />性悪</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:慎重" onclick="updateRecords();" />慎重</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:心配性" onclick="updateRecords();" />心配性</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:素直" onclick="updateRecords();" />素直</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:素直クール" onclick="updateRecords();" />素直クール</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:正義漢" onclick="updateRecords();" />正義漢</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:せっかち" onclick="updateRecords();" />せっかち</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:絶食系" onclick="updateRecords();" />絶食系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:繊細" onclick="updateRecords();" />繊細</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:草食系" onclick="updateRecords();" />草食系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:聡明" onclick="updateRecords();" />聡明</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:体育会系" onclick="updateRecords();" />体育会系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:高飛車" onclick="updateRecords();" />高飛車</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:多重人格" onclick="updateRecords();" />多重人格</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:短気" onclick="updateRecords();" />短気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:強気" onclick="updateRecords();" />強気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:単純" onclick="updateRecords();" />単純</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ツンアホ" onclick="updateRecords();" />ツンアホ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ツンギレ" onclick="updateRecords();" />ツンギレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ツンシュン" onclick="updateRecords();" />ツンシュン</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ツンデレ" onclick="updateRecords();" />ツンデレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ツンドラ" onclick="updateRecords();" />ツンドラ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:照れ屋" onclick="updateRecords();" />照れ屋</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:天衣無縫" onclick="updateRecords();" />天衣無縫</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:天才" onclick="updateRecords();" />天才</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:天真爛漫" onclick="updateRecords();" />天真爛漫</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:天然" onclick="updateRecords();" />天然</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:電波系" onclick="updateRecords();" />電波系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:豆腐メンタル" onclick="updateRecords();" />豆腐メンタル</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:毒舌" onclick="updateRecords();" />毒舌</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ドジ" onclick="updateRecords();" />ドジ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:努力家" onclick="updateRecords();" />努力家</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:内向的" onclick="updateRecords();" />内向的</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:泣き虫" onclick="updateRecords();" />泣き虫</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:鍋奉行" onclick="updateRecords();" />鍋奉行</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:生意気" onclick="updateRecords();" />生意気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ナルシスト" onclick="updateRecords();" />ナルシスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:軟派" onclick="updateRecords();" />軟派</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:肉食系" onclick="updateRecords();" />肉食系</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:人情家" onclick="updateRecords();" />人情家</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ネガティブ" onclick="updateRecords();" />ネガティブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:猫かぶり" onclick="updateRecords();" />猫かぶり</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ねちっこい" onclick="updateRecords();" />ねちっこい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:根暗" onclick="updateRecords();" />根暗</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:熱血" onclick="updateRecords();" />熱血</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:脳筋" onclick="updateRecords();" />脳筋</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:脳天気" onclick="updateRecords();" />脳天気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:のんき" onclick="updateRecords();" />のんき</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:のんびり屋" onclick="updateRecords();" />のんびり屋</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ハードボイルド" onclick="updateRecords();" />ハードボイルド</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:バカ" onclick="updateRecords();" />バカ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:バカワイイ" onclick="updateRecords();" />バカワイイ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:恥ずかしがり屋" onclick="updateRecords();" />恥ずかしがり屋</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:腹黒" onclick="updateRecords();" />腹黒</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:控えめ" onclick="updateRecords();" />控えめ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:引っ込み思案" onclick="updateRecords();" />引っ込み思案</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ビッチ" onclick="updateRecords();" />ビッチ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ビビリ" onclick="updateRecords();" />ビビリ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ファザコン" onclick="updateRecords();" />ファザコン</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ブラコン" onclick="updateRecords();" />ブラコン</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ぶりっ子" onclick="updateRecords();" />ぶりっ子</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ヘタレ" onclick="updateRecords();" />ヘタレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:変態" onclick="updateRecords();" />変態</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ポーカーフェイス" onclick="updateRecords();" />ポーカーフェイス</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ボーイッシュ" onclick="updateRecords();" />ボーイッシュ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ボクっ娘" onclick="updateRecords();" />ボクっ娘</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:朴念仁" onclick="updateRecords();" />朴念仁</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ポジティブ" onclick="updateRecords();" />ポジティブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:母性" onclick="updateRecords();" />母性</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:マイペース" onclick="updateRecords();" />マイペース</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:負けず嫌い" onclick="updateRecords();" />負けず嫌い</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:マザコン" onclick="updateRecords();" />マザコン</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:真面目" onclick="updateRecords();" />真面目</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:マゾヒスト" onclick="updateRecords();" />マゾヒスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:間抜け" onclick="updateRecords();" />間抜け</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:耳年増" onclick="updateRecords();" />耳年増</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:無表情" onclick="updateRecords();" />無表情</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:無口" onclick="updateRecords();" />無口</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:無邪気" onclick="updateRecords();" />無邪気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:むっつりスケベ" onclick="updateRecords();" />むっつりスケベ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ムードメーカー" onclick="updateRecords();" />ムードメーカー</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:明朗快活" onclick="updateRecords();" />明朗快活</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:面倒くさがり" onclick="updateRecords();" />面倒くさがり</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:優しい" onclick="updateRecords();" />優しい</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:やきもち焼き" onclick="updateRecords();" />やきもち焼き</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:やんちゃ" onclick="updateRecords();" />やんちゃ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ヤンデレ" onclick="updateRecords();" />ヤンデレ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:唯我独尊" onclick="updateRecords();" />唯我独尊</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:勇敢" onclick="updateRecords();" />勇敢</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:優秀" onclick="updateRecords();" />優秀</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:優柔不断" onclick="updateRecords();" />優柔不断</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:夢見がち" onclick="updateRecords();" />夢見がち</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:陽気" onclick="updateRecords();" />陽気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:弱気" onclick="updateRecords();" />弱気</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:弱虫" onclick="updateRecords();" />弱虫</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:楽天家" onclick="updateRecords();" />楽天家</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:リアリスト" onclick="updateRecords();" />リアリスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:理想家" onclick="updateRecords();" />理想家</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:律儀" onclick="updateRecords();" />律儀</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:冷酷" onclick="updateRecords();" />冷酷</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:冷静" onclick="updateRecords();" />冷静</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:冷徹" onclick="updateRecords();" />冷徹</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:ロマンチスト" onclick="updateRecords();" />ロマンチスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:わがまま" onclick="updateRecords();" />わがまま</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:わんこ" onclick="updateRecords();" />わんこ</label></td></tr>
-<tr><td><label><input type="checkbox" value="性格:わんぱく" onclick="updateRecords();" />わんぱく</label></td></tr>
+      <tr><td><label><input type="checkbox" name="性格" value="性格:明るい" onclick="updateRecords();" />明るい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:あざとい" onclick="updateRecords();" />あざとい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:姉御肌" onclick="updateRecords();" />姉御肌</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:アホ" onclick="updateRecords();" />アホ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:あほかわいい" onclick="updateRecords();" />あほかわいい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:アホの子" onclick="updateRecords();" />アホの子</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:意地っ張り" onclick="updateRecords();" />意地っ張り</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:一途" onclick="updateRecords();" />一途</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:一匹狼" onclick="updateRecords();" />一匹狼</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:一本気" onclick="updateRecords();" />一本気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:癒し系" onclick="updateRecords();" />癒し系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:陰気" onclick="updateRecords();" />陰気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:陰鬱" onclick="updateRecords();" />陰鬱</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:うざかわいい" onclick="updateRecords();" />うざかわいい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:内気" onclick="updateRecords();" />内気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:移り気" onclick="updateRecords();" />移り気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:おおらか" onclick="updateRecords();" />おおらか</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:奥手" onclick="updateRecords();" />奥手</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:臆病" onclick="updateRecords();" />臆病</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:穏やか" onclick="updateRecords();" />穏やか</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:お調子者" onclick="updateRecords();" />お調子者</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:おっとり" onclick="updateRecords();" />おっとり</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:男嫌い" onclick="updateRecords();" />男嫌い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:男好き" onclick="updateRecords();" />男好き</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:男勝り" onclick="updateRecords();" />男勝り</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:おとなしい" onclick="updateRecords();" />おとなしい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:俺様" onclick="updateRecords();" />俺様</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:温厚" onclick="updateRecords();" />温厚</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:女嫌い" onclick="updateRecords();" />女嫌い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:女好き" onclick="updateRecords();" />女好き</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:快活" onclick="updateRecords();" />快活</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:堅物" onclick="updateRecords();" />堅物</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:勝ち気" onclick="updateRecords();" />勝ち気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:活発" onclick="updateRecords();" />活発</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:家庭的" onclick="updateRecords();" />家庭的</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:構ってちゃん" onclick="updateRecords();" />構ってちゃん</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:寡黙" onclick="updateRecords();" />寡黙</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:頑固" onclick="updateRecords();" />頑固</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:寛大" onclick="updateRecords();" />寛大</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ガンデレ" onclick="updateRecords();" />ガンデレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:寛容" onclick="updateRecords();" />寛容</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:キザ" onclick="updateRecords();" />キザ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:厳格" onclick="updateRecords();" />厳格</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:気まぐれ" onclick="updateRecords();" />気まぐれ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:生真面目" onclick="updateRecords();" />生真面目</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:器用貧乏" onclick="updateRecords();" />器用貧乏</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:気弱" onclick="updateRecords();" />気弱</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:義理堅い" onclick="updateRecords();" />義理堅い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:綺麗好き" onclick="updateRecords();" />綺麗好き</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:切れ者" onclick="updateRecords();" />切れ者</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:クーデレ" onclick="updateRecords();" />クーデレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:クール" onclick="updateRecords();" />クール</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:苦労人" onclick="updateRecords();" />苦労人</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:計算高い" onclick="updateRecords();" />計算高い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ケチ" onclick="updateRecords();" />ケチ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ゲス" onclick="updateRecords();" />ゲス</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:潔癖症" onclick="updateRecords();" />潔癖症</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:健気" onclick="updateRecords();" />健気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:元気" onclick="updateRecords();" />元気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:現実主義者" onclick="updateRecords();" />現実主義者</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:小悪魔" onclick="updateRecords();" />小悪魔</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:狡猾" onclick="updateRecords();" />狡猾</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:硬派" onclick="updateRecords();" />硬派</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:好奇心" onclick="updateRecords();" />好奇心</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:高慢" onclick="updateRecords();" />高慢</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:傲慢" onclick="updateRecords();" />傲慢</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:サディスト" onclick="updateRecords();" />サディスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:寂しがり" onclick="updateRecords();" />寂しがり</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:残虐" onclick="updateRecords();" />残虐</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:残忍" onclick="updateRecords();" />残忍</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:自己中心的" onclick="updateRecords();" />自己中心的</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:自信家" onclick="updateRecords();" />自信家</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:したたか" onclick="updateRecords();" />したたか</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:しっかり者" onclick="updateRecords();" />しっかり者</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:嫉妬深い (やきもち焼き)" onclick="updateRecords();" />嫉妬深い (やきもち焼き)</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:シスコン" onclick="updateRecords();" />シスコン</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:慈悲深い" onclick="updateRecords();" />慈悲深い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:社交的" onclick="updateRecords();" />社交的</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:秀才" onclick="updateRecords();" />秀才</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:純情" onclick="updateRecords();" />純情</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:純真" onclick="updateRecords();" />純真</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:純粋" onclick="updateRecords();" />純粋</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:性悪" onclick="updateRecords();" />性悪</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:慎重" onclick="updateRecords();" />慎重</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:心配性" onclick="updateRecords();" />心配性</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:素直" onclick="updateRecords();" />素直</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:素直クール" onclick="updateRecords();" />素直クール</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:正義漢" onclick="updateRecords();" />正義漢</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:せっかち" onclick="updateRecords();" />せっかち</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:絶食系" onclick="updateRecords();" />絶食系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:繊細" onclick="updateRecords();" />繊細</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:草食系" onclick="updateRecords();" />草食系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:聡明" onclick="updateRecords();" />聡明</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:体育会系" onclick="updateRecords();" />体育会系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:高飛車" onclick="updateRecords();" />高飛車</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:多重人格" onclick="updateRecords();" />多重人格</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:短気" onclick="updateRecords();" />短気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:強気" onclick="updateRecords();" />強気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:単純" onclick="updateRecords();" />単純</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ツンアホ" onclick="updateRecords();" />ツンアホ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ツンギレ" onclick="updateRecords();" />ツンギレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ツンシュン" onclick="updateRecords();" />ツンシュン</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ツンデレ" onclick="updateRecords();" />ツンデレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ツンドラ" onclick="updateRecords();" />ツンドラ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:照れ屋" onclick="updateRecords();" />照れ屋</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:天衣無縫" onclick="updateRecords();" />天衣無縫</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:天才" onclick="updateRecords();" />天才</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:天真爛漫" onclick="updateRecords();" />天真爛漫</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:天然" onclick="updateRecords();" />天然</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:電波系" onclick="updateRecords();" />電波系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:豆腐メンタル" onclick="updateRecords();" />豆腐メンタル</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:毒舌" onclick="updateRecords();" />毒舌</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ドジ" onclick="updateRecords();" />ドジ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:努力家" onclick="updateRecords();" />努力家</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:内向的" onclick="updateRecords();" />内向的</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:泣き虫" onclick="updateRecords();" />泣き虫</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:鍋奉行" onclick="updateRecords();" />鍋奉行</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:生意気" onclick="updateRecords();" />生意気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ナルシスト" onclick="updateRecords();" />ナルシスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:軟派" onclick="updateRecords();" />軟派</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:肉食系" onclick="updateRecords();" />肉食系</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:人情家" onclick="updateRecords();" />人情家</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ネガティブ" onclick="updateRecords();" />ネガティブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:猫かぶり" onclick="updateRecords();" />猫かぶり</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ねちっこい" onclick="updateRecords();" />ねちっこい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:根暗" onclick="updateRecords();" />根暗</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:熱血" onclick="updateRecords();" />熱血</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:脳筋" onclick="updateRecords();" />脳筋</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:脳天気" onclick="updateRecords();" />脳天気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:のんき" onclick="updateRecords();" />のんき</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:のんびり屋" onclick="updateRecords();" />のんびり屋</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ハードボイルド" onclick="updateRecords();" />ハードボイルド</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:バカ" onclick="updateRecords();" />バカ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:バカワイイ" onclick="updateRecords();" />バカワイイ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:恥ずかしがり屋" onclick="updateRecords();" />恥ずかしがり屋</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:腹黒" onclick="updateRecords();" />腹黒</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:控えめ" onclick="updateRecords();" />控えめ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:引っ込み思案" onclick="updateRecords();" />引っ込み思案</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ビッチ" onclick="updateRecords();" />ビッチ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ビビリ" onclick="updateRecords();" />ビビリ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ファザコン" onclick="updateRecords();" />ファザコン</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ブラコン" onclick="updateRecords();" />ブラコン</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ぶりっ子" onclick="updateRecords();" />ぶりっ子</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ヘタレ" onclick="updateRecords();" />ヘタレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:変態" onclick="updateRecords();" />変態</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ポーカーフェイス" onclick="updateRecords();" />ポーカーフェイス</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ボーイッシュ" onclick="updateRecords();" />ボーイッシュ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ボクっ娘" onclick="updateRecords();" />ボクっ娘</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:朴念仁" onclick="updateRecords();" />朴念仁</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ポジティブ" onclick="updateRecords();" />ポジティブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:母性" onclick="updateRecords();" />母性</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:マイペース" onclick="updateRecords();" />マイペース</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:負けず嫌い" onclick="updateRecords();" />負けず嫌い</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:マザコン" onclick="updateRecords();" />マザコン</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:真面目" onclick="updateRecords();" />真面目</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:マゾヒスト" onclick="updateRecords();" />マゾヒスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:間抜け" onclick="updateRecords();" />間抜け</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:耳年増" onclick="updateRecords();" />耳年増</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:無表情" onclick="updateRecords();" />無表情</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:無口" onclick="updateRecords();" />無口</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:無邪気" onclick="updateRecords();" />無邪気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:むっつりスケベ" onclick="updateRecords();" />むっつりスケベ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ムードメーカー" onclick="updateRecords();" />ムードメーカー</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:明朗快活" onclick="updateRecords();" />明朗快活</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:面倒くさがり" onclick="updateRecords();" />面倒くさがり</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:優しい" onclick="updateRecords();" />優しい</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:やきもち焼き" onclick="updateRecords();" />やきもち焼き</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:やんちゃ" onclick="updateRecords();" />やんちゃ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ヤンデレ" onclick="updateRecords();" />ヤンデレ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:唯我独尊" onclick="updateRecords();" />唯我独尊</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:勇敢" onclick="updateRecords();" />勇敢</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:優秀" onclick="updateRecords();" />優秀</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:優柔不断" onclick="updateRecords();" />優柔不断</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:夢見がち" onclick="updateRecords();" />夢見がち</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:陽気" onclick="updateRecords();" />陽気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:弱気" onclick="updateRecords();" />弱気</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:弱虫" onclick="updateRecords();" />弱虫</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:楽天家" onclick="updateRecords();" />楽天家</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:リアリスト" onclick="updateRecords();" />リアリスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:理想家" onclick="updateRecords();" />理想家</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:律儀" onclick="updateRecords();" />律儀</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:冷酷" onclick="updateRecords();" />冷酷</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:冷静" onclick="updateRecords();" />冷静</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:冷徹" onclick="updateRecords();" />冷徹</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:ロマンチスト" onclick="updateRecords();" />ロマンチスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:わがまま" onclick="updateRecords();" />わがまま</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:わんこ" onclick="updateRecords();" />わんこ</label></td></tr>
+<tr><td><label><input type="checkbox" name="性格" value="性格:わんぱく" onclick="updateRecords();" />わんぱく</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(髪型);" />
   <table border="1">
     <caption>髪型</caption>
     <thead>
@@ -508,139 +512,140 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="髪型:癖毛" onclick="updateRecords();" />癖毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:巻き毛" onclick="updateRecords();" />巻き毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:縮毛" onclick="updateRecords();" />縮毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:縮れ毛" onclick="updateRecords();" />縮れ毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:天然パーマ" onclick="updateRecords();" />天然パーマ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:外ハネ" onclick="updateRecords();" />外ハネ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:猫毛/猫っ毛" onclick="updateRecords();" />猫毛/猫っ毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:剛毛" onclick="updateRecords();" />剛毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:くるくる" onclick="updateRecords();" />くるくる</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ゆるふわ" onclick="updateRecords();" />ゆるふわ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ボサボサ" onclick="updateRecords();" />ボサボサ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:サラサラ" onclick="updateRecords();" />サラサラ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:つやつや" onclick="updateRecords();" />つやつや</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:キューティクル" onclick="updateRecords();" />キューティクル</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:天使の輪" onclick="updateRecords();" />天使の輪</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ストレートヘア" onclick="updateRecords();" />ストレートヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウェービーヘア" onclick="updateRecords();" />ウェービーヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:カーリーヘア" onclick="updateRecords();" />カーリーヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:スーパーロングヘアー" onclick="updateRecords();" />スーパーロングヘアー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:セミロング" onclick="updateRecords();" />セミロング</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:尼削ぎ" onclick="updateRecords();" />尼削ぎ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ミディアムヘアー" onclick="updateRecords();" />ミディアムヘアー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:セミショート" onclick="updateRecords();" />セミショート</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ショートカット(ショートヘア)" onclick="updateRecords();" />ショートカット(ショートヘア)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ベリーショート(ベリショ、スーパーショート)" onclick="updateRecords();" />ベリーショート(ベリショ、スーパーショート)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ストレートロング" onclick="updateRecords();" />ストレートロング</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウェービーロングヘア" onclick="updateRecords();" />ウェービーロングヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:アシンメトリー" onclick="updateRecords();" />アシンメトリー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:カニ頭" onclick="updateRecords();" />カニ頭</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:チョコボ頭" onclick="updateRecords();" />チョコボ頭</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ドレッドヘアー" onclick="updateRecords();" />ドレッドヘアー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:おかっぱ" onclick="updateRecords();" />おかっぱ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ボブカット（ショートボブ" onclick="updateRecords();" />ボブカット（ショートボブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:マッシュルームカット" onclick="updateRecords();" />マッシュルームカット</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ワンレンボブ" onclick="updateRecords();" />ワンレンボブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:前下がりボブ" onclick="updateRecords();" />前下がりボブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:前上がりボブ" onclick="updateRecords();" />前上がりボブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:エアリーボブ）" onclick="updateRecords();" />エアリーボブ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウルフカット" onclick="updateRecords();" />ウルフカット</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:姫カット" onclick="updateRecords();" />姫カット</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ぱっつん" onclick="updateRecords();" />ぱっつん</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ワンレングス(ワンレン)" onclick="updateRecords();" />ワンレングス(ワンレン)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:坊ちゃん刈り" onclick="updateRecords();" />坊ちゃん刈り</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:聖子ちゃんカット" onclick="updateRecords();" />聖子ちゃんカット</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:テクノカット" onclick="updateRecords();" />テクノカット</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:坊主頭(丸刈り)" onclick="updateRecords();" />坊主頭(丸刈り)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:刈り上げ(刈上げかりあげ)" onclick="updateRecords();" />刈り上げ(刈上げかりあげ)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:角刈り" onclick="updateRecords();" />角刈り</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:スポーツ刈り" onclick="updateRecords();" />スポーツ刈り</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:禿(禿げ/禿頭)バーコードヘア" onclick="updateRecords();" />禿(禿げ/禿頭)バーコードヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:スキンヘッド" onclick="updateRecords();" />スキンヘッド</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:剃り込み" onclick="updateRecords();" />剃り込み</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:モヒカン(モヒカン刈り)" onclick="updateRecords();" />モヒカン(モヒカン刈り)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ソフトモヒカン" onclick="updateRecords();" />ソフトモヒカン</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ツーブロック" onclick="updateRecords();" />ツーブロック</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:逆モヒカン" onclick="updateRecords();" />逆モヒカン</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:トンスラ" onclick="updateRecords();" />トンスラ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:逆毛" onclick="updateRecords();" />逆毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ツンツン頭" onclick="updateRecords();" />ツンツン頭</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:外巻き" onclick="updateRecords();" />外巻き</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:内巻き" onclick="updateRecords();" />内巻き</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:アホ毛" onclick="updateRecords();" />アホ毛</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:触角" onclick="updateRecords();" />触角</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:インテーク" onclick="updateRecords();" />インテーク</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:オールバック" onclick="updateRecords();" />オールバック</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:総髪" onclick="updateRecords();" />総髪</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:リーゼント" onclick="updateRecords();" />リーゼント</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:真ん中分け" onclick="updateRecords();" />真ん中分け</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:七三分け" onclick="updateRecords();" />七三分け</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:内巻き" onclick="updateRecords();" />内巻き</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:外巻き" onclick="updateRecords();" />外巻き</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウェーブ" onclick="updateRecords();" />ウェーブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウェービーヘア" onclick="updateRecords();" />ウェービーヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ウェービーロングヘア" onclick="updateRecords();" />ウェービーロングヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ソバージュ" onclick="updateRecords();" />ソバージュ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:カール" onclick="updateRecords();" />カール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:カーリーヘア" onclick="updateRecords();" />カーリーヘア</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:パーマ" onclick="updateRecords();" />パーマ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:パンチパーマ" onclick="updateRecords();" />パンチパーマ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:アイパー" onclick="updateRecords();" />アイパー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:アフロ" onclick="updateRecords();" />アフロ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:縦ロール" onclick="updateRecords();" />縦ロール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ポニーテール（ポニテ）" onclick="updateRecords();" />ポニーテール（ポニテ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:一つ結び（一本結び）" onclick="updateRecords();" />一つ結び（一本結び）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ひっつめ（ひっつめ頭/ひっつめ髪）" onclick="updateRecords();" />ひっつめ（ひっつめ頭/ひっつめ髪）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ハーフアップ（お嬢様結び）" onclick="updateRecords();" />ハーフアップ（お嬢様結び）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:シニヨン（お団子頭/おだんご頭）" onclick="updateRecords();" />シニヨン（お団子頭/おだんご頭）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:サイドテール（サイドポニー）" onclick="updateRecords();" />サイドテール（サイドポニー）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:サイドアップ" onclick="updateRecords();" />サイドアップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ハイブリッド・サイドテール" onclick="updateRecords();" />ハイブリッド・サイドテール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ツーテール（ツインテール/ツインテ）" onclick="updateRecords();" />ツーテール（ツインテール/ツインテ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ツーサイドアップ" onclick="updateRecords();" />ツーサイドアップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ハイブリッド・ツインテール（ハイブリッド･ツーテール）" onclick="updateRecords();" />ハイブリッド・ツインテール（ハイブリッド･ツーテール）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ハーフツインテール" onclick="updateRecords();" />ハーフツインテール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:おさげ（お下げ）" onclick="updateRecords();" />おさげ（お下げ）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:二つ結び" onclick="updateRecords();" />二つ結び</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:二本結び" onclick="updateRecords();" />二本結び</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:みずら（角髪）" onclick="updateRecords();" />みずら（角髪）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:クアドラプルテール" onclick="updateRecords();" />クアドラプルテール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:アップスタイル（アップ髪/アップヘア）" onclick="updateRecords();" />アップスタイル（アップ髪/アップヘア）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:夜会巻き" onclick="updateRecords();" />夜会巻き</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:パイナップルヘアー" onclick="updateRecords();" />パイナップルヘアー</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ポンパドール" onclick="updateRecords();" />ポンパドール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:日本髪" onclick="updateRecords();" />日本髪</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:髷" onclick="updateRecords();" />髷</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ちょんまげ(丁髷)" onclick="updateRecords();" />ちょんまげ(丁髷)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:丸髷" onclick="updateRecords();" />丸髷</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:茶筅髷" onclick="updateRecords();" />茶筅髷</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:稚児髷" onclick="updateRecords();" />稚児髷</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:高髻" onclick="updateRecords();" />高髻</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:双髻" onclick="updateRecords();" />双髻</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:一髻" onclick="updateRecords();" />一髻</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:つぶし島田リボン結び" onclick="updateRecords();" />つぶし島田リボン結び</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:二つ編み（ツイストヘア）" onclick="updateRecords();" />二つ編み（ツイストヘア）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:三つ編み(みつあみ/ミツアミ)" onclick="updateRecords();" />三つ編み(みつあみ/ミツアミ)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:弁髪(辮髪)（ピッグテール）" onclick="updateRecords();" />弁髪(辮髪)（ピッグテール）</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:編み込み" onclick="updateRecords();" />編み込み</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:前髪編み込み" onclick="updateRecords();" />前髪編み込み</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:カチューシャ編み" onclick="updateRecords();" />カチューシャ編み</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:編み込みハーフアップ" onclick="updateRecords();" />編み込みハーフアップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:クラウンブレイド" onclick="updateRecords();" />クラウンブレイド</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:コーンロウ" onclick="updateRecords();" />コーンロウ</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:ドレッド(ドレッドロックス)" onclick="updateRecords();" />ドレッド(ドレッドロックス)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:トリプルテール" onclick="updateRecords();" />トリプルテール</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:盛り髪" onclick="updateRecords();" />盛り髪</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:メガ盛り" onclick="updateRecords();" />メガ盛り</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:昇天ペガサスMIX盛り(昇天ペガサス)" onclick="updateRecords();" />昇天ペガサスMIX盛り(昇天ペガサス)</label></td></tr>
-<tr><td><label><input type="checkbox" value="髪型:トルネード花魁アップ(トルネード花魁)" onclick="updateRecords();" />トルネード花魁アップ(トルネード花魁)</label></td></tr>
+      <tr><td><label><input type="checkbox" name="髪型" value="髪型:癖毛" onclick="updateRecords();" />癖毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:巻き毛" onclick="updateRecords();" />巻き毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:縮毛" onclick="updateRecords();" />縮毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:縮れ毛" onclick="updateRecords();" />縮れ毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:天然パーマ" onclick="updateRecords();" />天然パーマ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:外ハネ" onclick="updateRecords();" />外ハネ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:猫毛/猫っ毛" onclick="updateRecords();" />猫毛/猫っ毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:剛毛" onclick="updateRecords();" />剛毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:くるくる" onclick="updateRecords();" />くるくる</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ゆるふわ" onclick="updateRecords();" />ゆるふわ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ボサボサ" onclick="updateRecords();" />ボサボサ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:サラサラ" onclick="updateRecords();" />サラサラ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:つやつや" onclick="updateRecords();" />つやつや</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:キューティクル" onclick="updateRecords();" />キューティクル</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:天使の輪" onclick="updateRecords();" />天使の輪</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ストレートヘア" onclick="updateRecords();" />ストレートヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウェービーヘア" onclick="updateRecords();" />ウェービーヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:カーリーヘア" onclick="updateRecords();" />カーリーヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:スーパーロングヘアー" onclick="updateRecords();" />スーパーロングヘアー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:セミロング" onclick="updateRecords();" />セミロング</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:尼削ぎ" onclick="updateRecords();" />尼削ぎ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ミディアムヘアー" onclick="updateRecords();" />ミディアムヘアー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:セミショート" onclick="updateRecords();" />セミショート</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ショートカット(ショートヘア)" onclick="updateRecords();" />ショートカット(ショートヘア)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ベリーショート(ベリショ、スーパーショート)" onclick="updateRecords();" />ベリーショート(ベリショ、スーパーショート)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ストレートロング" onclick="updateRecords();" />ストレートロング</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウェービーロングヘア" onclick="updateRecords();" />ウェービーロングヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:アシンメトリー" onclick="updateRecords();" />アシンメトリー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:カニ頭" onclick="updateRecords();" />カニ頭</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:チョコボ頭" onclick="updateRecords();" />チョコボ頭</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ドレッドヘアー" onclick="updateRecords();" />ドレッドヘアー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:おかっぱ" onclick="updateRecords();" />おかっぱ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ボブカット（ショートボブ" onclick="updateRecords();" />ボブカット（ショートボブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:マッシュルームカット" onclick="updateRecords();" />マッシュルームカット</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ワンレンボブ" onclick="updateRecords();" />ワンレンボブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:前下がりボブ" onclick="updateRecords();" />前下がりボブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:前上がりボブ" onclick="updateRecords();" />前上がりボブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:エアリーボブ）" onclick="updateRecords();" />エアリーボブ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウルフカット" onclick="updateRecords();" />ウルフカット</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:姫カット" onclick="updateRecords();" />姫カット</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ぱっつん" onclick="updateRecords();" />ぱっつん</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ワンレングス(ワンレン)" onclick="updateRecords();" />ワンレングス(ワンレン)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:坊ちゃん刈り" onclick="updateRecords();" />坊ちゃん刈り</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:聖子ちゃんカット" onclick="updateRecords();" />聖子ちゃんカット</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:テクノカット" onclick="updateRecords();" />テクノカット</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:坊主頭(丸刈り)" onclick="updateRecords();" />坊主頭(丸刈り)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:刈り上げ(刈上げかりあげ)" onclick="updateRecords();" />刈り上げ(刈上げかりあげ)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:角刈り" onclick="updateRecords();" />角刈り</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:スポーツ刈り" onclick="updateRecords();" />スポーツ刈り</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:禿(禿げ/禿頭)バーコードヘア" onclick="updateRecords();" />禿(禿げ/禿頭)バーコードヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:スキンヘッド" onclick="updateRecords();" />スキンヘッド</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:剃り込み" onclick="updateRecords();" />剃り込み</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:モヒカン(モヒカン刈り)" onclick="updateRecords();" />モヒカン(モヒカン刈り)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ソフトモヒカン" onclick="updateRecords();" />ソフトモヒカン</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ツーブロック" onclick="updateRecords();" />ツーブロック</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:逆モヒカン" onclick="updateRecords();" />逆モヒカン</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:トンスラ" onclick="updateRecords();" />トンスラ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:逆毛" onclick="updateRecords();" />逆毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ツンツン頭" onclick="updateRecords();" />ツンツン頭</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:外巻き" onclick="updateRecords();" />外巻き</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:内巻き" onclick="updateRecords();" />内巻き</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:アホ毛" onclick="updateRecords();" />アホ毛</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:触角" onclick="updateRecords();" />触角</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:インテーク" onclick="updateRecords();" />インテーク</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:オールバック" onclick="updateRecords();" />オールバック</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:総髪" onclick="updateRecords();" />総髪</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:リーゼント" onclick="updateRecords();" />リーゼント</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:真ん中分け" onclick="updateRecords();" />真ん中分け</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:七三分け" onclick="updateRecords();" />七三分け</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:内巻き" onclick="updateRecords();" />内巻き</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:外巻き" onclick="updateRecords();" />外巻き</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウェーブ" onclick="updateRecords();" />ウェーブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウェービーヘア" onclick="updateRecords();" />ウェービーヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ウェービーロングヘア" onclick="updateRecords();" />ウェービーロングヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ソバージュ" onclick="updateRecords();" />ソバージュ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:カール" onclick="updateRecords();" />カール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:カーリーヘア" onclick="updateRecords();" />カーリーヘア</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:パーマ" onclick="updateRecords();" />パーマ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:パンチパーマ" onclick="updateRecords();" />パンチパーマ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:アイパー" onclick="updateRecords();" />アイパー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:アフロ" onclick="updateRecords();" />アフロ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:縦ロール" onclick="updateRecords();" />縦ロール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ポニーテール（ポニテ）" onclick="updateRecords();" />ポニーテール（ポニテ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:一つ結び（一本結び）" onclick="updateRecords();" />一つ結び（一本結び）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ひっつめ（ひっつめ頭/ひっつめ髪）" onclick="updateRecords();" />ひっつめ（ひっつめ頭/ひっつめ髪）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ハーフアップ（お嬢様結び）" onclick="updateRecords();" />ハーフアップ（お嬢様結び）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:シニヨン（お団子頭/おだんご頭）" onclick="updateRecords();" />シニヨン（お団子頭/おだんご頭）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:サイドテール（サイドポニー）" onclick="updateRecords();" />サイドテール（サイドポニー）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:サイドアップ" onclick="updateRecords();" />サイドアップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ハイブリッド・サイドテール" onclick="updateRecords();" />ハイブリッド・サイドテール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ツーテール（ツインテール/ツインテ）" onclick="updateRecords();" />ツーテール（ツインテール/ツインテ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ツーサイドアップ" onclick="updateRecords();" />ツーサイドアップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ハイブリッド・ツインテール（ハイブリッド･ツーテール）" onclick="updateRecords();" />ハイブリッド・ツインテール（ハイブリッド･ツーテール）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ハーフツインテール" onclick="updateRecords();" />ハーフツインテール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:おさげ（お下げ）" onclick="updateRecords();" />おさげ（お下げ）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:二つ結び" onclick="updateRecords();" />二つ結び</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:二本結び" onclick="updateRecords();" />二本結び</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:みずら（角髪）" onclick="updateRecords();" />みずら（角髪）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:クアドラプルテール" onclick="updateRecords();" />クアドラプルテール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:アップスタイル（アップ髪/アップヘア）" onclick="updateRecords();" />アップスタイル（アップ髪/アップヘア）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:夜会巻き" onclick="updateRecords();" />夜会巻き</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:パイナップルヘアー" onclick="updateRecords();" />パイナップルヘアー</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ポンパドール" onclick="updateRecords();" />ポンパドール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:日本髪" onclick="updateRecords();" />日本髪</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:髷" onclick="updateRecords();" />髷</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ちょんまげ(丁髷)" onclick="updateRecords();" />ちょんまげ(丁髷)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:丸髷" onclick="updateRecords();" />丸髷</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:茶筅髷" onclick="updateRecords();" />茶筅髷</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:稚児髷" onclick="updateRecords();" />稚児髷</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:高髻" onclick="updateRecords();" />高髻</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:双髻" onclick="updateRecords();" />双髻</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:一髻" onclick="updateRecords();" />一髻</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:つぶし島田リボン結び" onclick="updateRecords();" />つぶし島田リボン結び</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:二つ編み（ツイストヘア）" onclick="updateRecords();" />二つ編み（ツイストヘア）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:三つ編み(みつあみ/ミツアミ)" onclick="updateRecords();" />三つ編み(みつあみ/ミツアミ)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:弁髪(辮髪)（ピッグテール）" onclick="updateRecords();" />弁髪(辮髪)（ピッグテール）</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:編み込み" onclick="updateRecords();" />編み込み</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:前髪編み込み" onclick="updateRecords();" />前髪編み込み</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:カチューシャ編み" onclick="updateRecords();" />カチューシャ編み</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:編み込みハーフアップ" onclick="updateRecords();" />編み込みハーフアップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:クラウンブレイド" onclick="updateRecords();" />クラウンブレイド</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:コーンロウ" onclick="updateRecords();" />コーンロウ</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:ドレッド(ドレッドロックス)" onclick="updateRecords();" />ドレッド(ドレッドロックス)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:トリプルテール" onclick="updateRecords();" />トリプルテール</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:盛り髪" onclick="updateRecords();" />盛り髪</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:メガ盛り" onclick="updateRecords();" />メガ盛り</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:昇天ペガサスMIX盛り(昇天ペガサス)" onclick="updateRecords();" />昇天ペガサスMIX盛り(昇天ペガサス)</label></td></tr>
+<tr><td><label><input type="checkbox" name="髪型" value="髪型:トルネード花魁アップ(トルネード花魁)" onclick="updateRecords();" />トルネード花魁アップ(トルネード花魁)</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(トップス);" />
   <table border="1">
     <caption>トップス</caption>
     <thead>
@@ -649,35 +654,36 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="トップス:クロップトップ" onclick="updateRecords();" />クロップトップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ドレスシャツ" onclick="updateRecords();" />ドレスシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:グアヤベラ" onclick="updateRecords();" />グアヤベラ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ガーンジー (衣類)" onclick="updateRecords();" />ガーンジー (衣類)</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ホルターネック" onclick="updateRecords();" />ホルターネック</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ヘンリーシャツ" onclick="updateRecords();" />ヘンリーシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:パーカー" onclick="updateRecords();" />パーカー</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ジャージー" onclick="updateRecords();" />ジャージー</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ポロシャツ" onclick="updateRecords();" />ポロシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:シャツ" onclick="updateRecords();" />シャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ランニングシャツ" onclick="updateRecords();" />ランニングシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:セーター" onclick="updateRecords();" />セーター</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:セーターベスト" onclick="updateRecords();" />セーターベスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:Tシャツ" onclick="updateRecords();" />Tシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:チューブトップ" onclick="updateRecords();" />チューブトップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:タートルネック" onclick="updateRecords();" />タートルネック</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ツインニット" onclick="updateRecords();" />ツインニット</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ワイシャツ" onclick="updateRecords();" />ワイシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:開襟シャツ" onclick="updateRecords();" />開襟シャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:タンクトップ" onclick="updateRecords();" />タンクトップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:ノースリーブ" onclick="updateRecords();" />ノースリーブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:カーディガン" onclick="updateRecords();" />カーディガン</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:カットソー" onclick="updateRecords();" />カットソー</label></td></tr>
-<tr><td><label><input type="checkbox" value="トップス:プールポワン" onclick="updateRecords();" />プールポワン</label></td></tr>
+      <tr><td><label><input type="checkbox" name="トップス" value="トップス:クロップトップ" onclick="updateRecords();" />クロップトップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ドレスシャツ" onclick="updateRecords();" />ドレスシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:グアヤベラ" onclick="updateRecords();" />グアヤベラ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ガーンジー (衣類)" onclick="updateRecords();" />ガーンジー (衣類)</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ホルターネック" onclick="updateRecords();" />ホルターネック</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ヘンリーシャツ" onclick="updateRecords();" />ヘンリーシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:パーカー" onclick="updateRecords();" />パーカー</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ジャージー" onclick="updateRecords();" />ジャージー</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ポロシャツ" onclick="updateRecords();" />ポロシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:シャツ" onclick="updateRecords();" />シャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ランニングシャツ" onclick="updateRecords();" />ランニングシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:セーター" onclick="updateRecords();" />セーター</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:セーターベスト" onclick="updateRecords();" />セーターベスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:Tシャツ" onclick="updateRecords();" />Tシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:チューブトップ" onclick="updateRecords();" />チューブトップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:タートルネック" onclick="updateRecords();" />タートルネック</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ツインニット" onclick="updateRecords();" />ツインニット</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ワイシャツ" onclick="updateRecords();" />ワイシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:開襟シャツ" onclick="updateRecords();" />開襟シャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:タンクトップ" onclick="updateRecords();" />タンクトップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:ノースリーブ" onclick="updateRecords();" />ノースリーブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:カーディガン" onclick="updateRecords();" />カーディガン</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:カットソー" onclick="updateRecords();" />カットソー</label></td></tr>
+<tr><td><label><input type="checkbox" name="トップス" value="トップス:プールポワン" onclick="updateRecords();" />プールポワン</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(ズボン);" />
   <table border="1">
     <caption>ズボン</caption>
     <thead>
@@ -686,43 +692,44 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="ズボン:ベルボトム" onclick="updateRecords();" />ベルボトム</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:バミューダショーツ" onclick="updateRecords();" />バミューダショーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ボンデージパンツ" onclick="updateRecords();" />ボンデージパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:サブリナパンツ" onclick="updateRecords();" />サブリナパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:カーゴパンツ" onclick="updateRecords();" />カーゴパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:チャップス" onclick="updateRecords();" />チャップス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:レーサーパンツ" onclick="updateRecords();" />レーサーパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:スラックス" onclick="updateRecords();" />スラックス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ステテコ" onclick="updateRecords();" />ステテコ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:もんぺ" onclick="updateRecords();" />もんぺ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ハイウエストパンツ" onclick="updateRecords();" />ハイウエストパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ローライズパンツ" onclick="updateRecords();" />ローライズパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ジーンズ" onclick="updateRecords();" />ジーンズ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ジョッパーズ" onclick="updateRecords();" />ジョッパーズ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:スパッツ" onclick="updateRecords();" />スパッツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:オーバーオール" onclick="updateRecords();" />オーバーオール</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:パラッツォパンツ" onclick="updateRecords();" />パラッツォパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:パラシュートパンツ" onclick="updateRecords();" />パラシュートパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ペダルプッシャー" onclick="updateRecords();" />ペダルプッシャー</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ファットパンツ" onclick="updateRecords();" />ファットパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ショーツ" onclick="updateRecords();" />ショーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:スリムフィットパンツ" onclick="updateRecords();" />スリムフィットパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:スウェットパンツ" onclick="updateRecords();" />スウェットパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ヨガパンツ" onclick="updateRecords();" />ヨガパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:長ズボン" onclick="updateRecords();" />長ズボン</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:チノ・パンツ" onclick="updateRecords();" />チノ・パンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:半ズボン" onclick="updateRecords();" />半ズボン</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ショートパンツ" onclick="updateRecords();" />ショートパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ハーフパンツ" onclick="updateRecords();" />ハーフパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ニッカーボッカーズ" onclick="updateRecords();" />ニッカーボッカーズ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ホットパンツ" onclick="updateRecords();" />ホットパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ズボン:ブルマー" onclick="updateRecords();" />ブルマー</label></td></tr>
+      <tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ベルボトム" onclick="updateRecords();" />ベルボトム</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:バミューダショーツ" onclick="updateRecords();" />バミューダショーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ボンデージパンツ" onclick="updateRecords();" />ボンデージパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:サブリナパンツ" onclick="updateRecords();" />サブリナパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:カーゴパンツ" onclick="updateRecords();" />カーゴパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:チャップス" onclick="updateRecords();" />チャップス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:レーサーパンツ" onclick="updateRecords();" />レーサーパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:スラックス" onclick="updateRecords();" />スラックス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ステテコ" onclick="updateRecords();" />ステテコ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:もんぺ" onclick="updateRecords();" />もんぺ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ハイウエストパンツ" onclick="updateRecords();" />ハイウエストパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ローライズパンツ" onclick="updateRecords();" />ローライズパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ジーンズ" onclick="updateRecords();" />ジーンズ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ジョッパーズ" onclick="updateRecords();" />ジョッパーズ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:スパッツ" onclick="updateRecords();" />スパッツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:オーバーオール" onclick="updateRecords();" />オーバーオール</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:パラッツォパンツ" onclick="updateRecords();" />パラッツォパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:パラシュートパンツ" onclick="updateRecords();" />パラシュートパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ペダルプッシャー" onclick="updateRecords();" />ペダルプッシャー</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ファットパンツ" onclick="updateRecords();" />ファットパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ショーツ" onclick="updateRecords();" />ショーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:スリムフィットパンツ" onclick="updateRecords();" />スリムフィットパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:スウェットパンツ" onclick="updateRecords();" />スウェットパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ヨガパンツ" onclick="updateRecords();" />ヨガパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:長ズボン" onclick="updateRecords();" />長ズボン</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:チノ・パンツ" onclick="updateRecords();" />チノ・パンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:半ズボン" onclick="updateRecords();" />半ズボン</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ショートパンツ" onclick="updateRecords();" />ショートパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ハーフパンツ" onclick="updateRecords();" />ハーフパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ニッカーボッカーズ" onclick="updateRecords();" />ニッカーボッカーズ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ホットパンツ" onclick="updateRecords();" />ホットパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ズボン" value="ズボン:ブルマー" onclick="updateRecords();" />ブルマー</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(スカート);" />
   <table border="1">
     <caption>スカート</caption>
     <thead>
@@ -731,26 +738,27 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="スカート:Aラインスカート" onclick="updateRecords();" />Aラインスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:バレリーナスカート" onclick="updateRecords();" />バレリーナスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:デニムスカート" onclick="updateRecords();" />デニムスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:メンズ・スカート" onclick="updateRecords();" />メンズ・スカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:ミニスカート" onclick="updateRecords();" />ミニスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:ペンシルスカート" onclick="updateRecords();" />ペンシルスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:プレーリースカート" onclick="updateRecords();" />プレーリースカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:ララスカート" onclick="updateRecords();" />ララスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:サロン" onclick="updateRecords();" />サロン</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:スコート" onclick="updateRecords();" />スコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:チュチュ" onclick="updateRecords();" />チュチュ</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:巻きスカート" onclick="updateRecords();" />巻きスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:ジャンパースカート" onclick="updateRecords();" />ジャンパースカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:ロングスカート" onclick="updateRecords();" />ロングスカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="スカート:キュロット" onclick="updateRecords();" />キュロット</label></td></tr>
+      <tr><td><label><input type="checkbox" name="スカート" value="スカート:Aラインスカート" onclick="updateRecords();" />Aラインスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:バレリーナスカート" onclick="updateRecords();" />バレリーナスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:デニムスカート" onclick="updateRecords();" />デニムスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:メンズ・スカート" onclick="updateRecords();" />メンズ・スカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:ミニスカート" onclick="updateRecords();" />ミニスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:ペンシルスカート" onclick="updateRecords();" />ペンシルスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:プレーリースカート" onclick="updateRecords();" />プレーリースカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:ララスカート" onclick="updateRecords();" />ララスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:サロン" onclick="updateRecords();" />サロン</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:スコート" onclick="updateRecords();" />スコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:チュチュ" onclick="updateRecords();" />チュチュ</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:巻きスカート" onclick="updateRecords();" />巻きスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:ジャンパースカート" onclick="updateRecords();" />ジャンパースカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:ロングスカート" onclick="updateRecords();" />ロングスカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="スカート" value="スカート:キュロット" onclick="updateRecords();" />キュロット</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(ドレス);" />
   <table border="1">
     <caption>ドレス</caption>
     <thead>
@@ -759,36 +767,37 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="ドレス:ボールガウン" onclick="updateRecords();" />ボールガウン</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ブーファンガウン" onclick="updateRecords();" />ブーファンガウン</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:コートドレス" onclick="updateRecords();" />コートドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:カクテルドレス" onclick="updateRecords();" />カクテルドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:デビュタントドレス" onclick="updateRecords();" />デビュタントドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:礼服" onclick="updateRecords();" />礼服</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:フロックコート" onclick="updateRecords();" />フロックコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:イブニングドレス" onclick="updateRecords();" />イブニングドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ガウン" onclick="updateRecords();" />ガウン</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ワンピース" onclick="updateRecords();" />ワンピース</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ジャンパースカート" onclick="updateRecords();" />ジャンパースカート</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:リトル・ブラック・ドレス" onclick="updateRecords();" />リトル・ブラック・ドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:プリンセスドレス" onclick="updateRecords();" />プリンセスドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:シースドレス" onclick="updateRecords();" />シースドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:シャツドレス" onclick="updateRecords();" />シャツドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:スリップドレス" onclick="updateRecords();" />スリップドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ストラップレスドレス" onclick="updateRecords();" />ストラップレスドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:サンドレス" onclick="updateRecords();" />サンドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ウェディングドレス" onclick="updateRecords();" />ウェディングドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ラップドレス" onclick="updateRecords();" />ラップドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:アフタヌーンドレス" onclick="updateRecords();" />アフタヌーンドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ローブ・モンタント" onclick="updateRecords();" />ローブ・モンタント</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ローブ・デコルテ" onclick="updateRecords();" />ローブ・デコルテ</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:ディナードレス" onclick="updateRecords();" />ディナードレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="ドレス:バックレスドレス" onclick="updateRecords();" />バックレスドレス</label></td></tr>
+      <tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ボールガウン" onclick="updateRecords();" />ボールガウン</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ブーファンガウン" onclick="updateRecords();" />ブーファンガウン</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:コートドレス" onclick="updateRecords();" />コートドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:カクテルドレス" onclick="updateRecords();" />カクテルドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:デビュタントドレス" onclick="updateRecords();" />デビュタントドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:礼服" onclick="updateRecords();" />礼服</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:フロックコート" onclick="updateRecords();" />フロックコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:イブニングドレス" onclick="updateRecords();" />イブニングドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ガウン" onclick="updateRecords();" />ガウン</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ワンピース" onclick="updateRecords();" />ワンピース</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ジャンパースカート" onclick="updateRecords();" />ジャンパースカート</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:リトル・ブラック・ドレス" onclick="updateRecords();" />リトル・ブラック・ドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:プリンセスドレス" onclick="updateRecords();" />プリンセスドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:シースドレス" onclick="updateRecords();" />シースドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:シャツドレス" onclick="updateRecords();" />シャツドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:スリップドレス" onclick="updateRecords();" />スリップドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ストラップレスドレス" onclick="updateRecords();" />ストラップレスドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:サンドレス" onclick="updateRecords();" />サンドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ウェディングドレス" onclick="updateRecords();" />ウェディングドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ラップドレス" onclick="updateRecords();" />ラップドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:アフタヌーンドレス" onclick="updateRecords();" />アフタヌーンドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ローブ・モンタント" onclick="updateRecords();" />ローブ・モンタント</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ローブ・デコルテ" onclick="updateRecords();" />ローブ・デコルテ</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:ディナードレス" onclick="updateRecords();" />ディナードレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="ドレス" value="ドレス:バックレスドレス" onclick="updateRecords();" />バックレスドレス</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(制服);" />
   <table border="1">
     <caption>制服</caption>
     <thead>
@@ -797,45 +806,46 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="制服:アカデミックドレス" onclick="updateRecords();" />アカデミックドレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:舞踏服" onclick="updateRecords();" />舞踏服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ブラックタイ" onclick="updateRecords();" />ブラックタイ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:つなぎ" onclick="updateRecords();" />つなぎ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:クリーンウェア" onclick="updateRecords();" />クリーンウェア</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:法服" onclick="updateRecords();" />法服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ジムスリップ" onclick="updateRecords();" />ジムスリップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ジャンプスーツ" onclick="updateRecords();" />ジャンプスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:袈裟" onclick="updateRecords();" />袈裟</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:白衣" onclick="updateRecords();" />白衣</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:軍服" onclick="updateRecords();" />軍服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:モーニングコート" onclick="updateRecords();" />モーニングコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ワンジー" onclick="updateRecords();" />ワンジー</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:パンツスーツ" onclick="updateRecords();" />パンツスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:レッドシーリグ" onclick="updateRecords();" />レッドシーリグ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ロンパース" onclick="updateRecords();" />ロンパース</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:学校制服" onclick="updateRecords();" />学校制服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:スクラブ" onclick="updateRecords();" />スクラブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ディレクターズスーツ" onclick="updateRecords();" />ディレクターズスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:タキシード" onclick="updateRecords();" />タキシード</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:祭服" onclick="updateRecords();" />祭服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:燕尾服" onclick="updateRecords();" />燕尾服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:スペンサー" onclick="updateRecords();" />スペンサー</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:スリーピース" onclick="updateRecords();" />スリーピース</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:マオカラースーツ" onclick="updateRecords();" />マオカラースーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:人民服" onclick="updateRecords();" />人民服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:レディーススーツ" onclick="updateRecords();" />レディーススーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:リクルートスーツ" onclick="updateRecords();" />リクルートスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:カバーオール" onclick="updateRecords();" />カバーオール</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:全身タイツ" onclick="updateRecords();" />全身タイツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ユニフォーム" onclick="updateRecords();" />ユニフォーム</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:学生服" onclick="updateRecords();" />学生服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:作業服" onclick="updateRecords();" />作業服</label></td></tr>
-<tr><td><label><input type="checkbox" value="制服:ブラックスーツ" onclick="updateRecords();" />ブラックスーツ</label></td></tr>
+      <tr><td><label><input type="checkbox" name="制服" value="制服:アカデミックドレス" onclick="updateRecords();" />アカデミックドレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:舞踏服" onclick="updateRecords();" />舞踏服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ブラックタイ" onclick="updateRecords();" />ブラックタイ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:つなぎ" onclick="updateRecords();" />つなぎ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:クリーンウェア" onclick="updateRecords();" />クリーンウェア</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:法服" onclick="updateRecords();" />法服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ジムスリップ" onclick="updateRecords();" />ジムスリップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ジャンプスーツ" onclick="updateRecords();" />ジャンプスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:袈裟" onclick="updateRecords();" />袈裟</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:白衣" onclick="updateRecords();" />白衣</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:軍服" onclick="updateRecords();" />軍服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:モーニングコート" onclick="updateRecords();" />モーニングコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ワンジー" onclick="updateRecords();" />ワンジー</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:パンツスーツ" onclick="updateRecords();" />パンツスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:レッドシーリグ" onclick="updateRecords();" />レッドシーリグ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ロンパース" onclick="updateRecords();" />ロンパース</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:学校制服" onclick="updateRecords();" />学校制服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:スクラブ" onclick="updateRecords();" />スクラブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ディレクターズスーツ" onclick="updateRecords();" />ディレクターズスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:タキシード" onclick="updateRecords();" />タキシード</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:祭服" onclick="updateRecords();" />祭服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:燕尾服" onclick="updateRecords();" />燕尾服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:スペンサー" onclick="updateRecords();" />スペンサー</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:スリーピース" onclick="updateRecords();" />スリーピース</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:マオカラースーツ" onclick="updateRecords();" />マオカラースーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:人民服" onclick="updateRecords();" />人民服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:レディーススーツ" onclick="updateRecords();" />レディーススーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:リクルートスーツ" onclick="updateRecords();" />リクルートスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:カバーオール" onclick="updateRecords();" />カバーオール</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:全身タイツ" onclick="updateRecords();" />全身タイツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ユニフォーム" onclick="updateRecords();" />ユニフォーム</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:学生服" onclick="updateRecords();" />学生服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:作業服" onclick="updateRecords();" />作業服</label></td></tr>
+<tr><td><label><input type="checkbox" name="制服" value="制服:ブラックスーツ" onclick="updateRecords();" />ブラックスーツ</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(アンダーウェア);" />
   <table border="1">
     <caption>アンダーウェア</caption>
     <thead>
@@ -844,62 +854,63 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="アンダーウェア:エプロン" onclick="updateRecords();" />エプロン</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ブレザー" onclick="updateRecords();" />ブレザー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ブリティッシュウォーマー" onclick="updateRecords();" />ブリティッシュウォーマー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:カグール" onclick="updateRecords();" />カグール</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ケープ" onclick="updateRecords();" />ケープ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:チェスターフィールドコート" onclick="updateRecords();" />チェスターフィールドコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:コート (衣類)" onclick="updateRecords();" />コート (衣類)</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:カバートコート" onclick="updateRecords();" />カバートコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:カットオフ" onclick="updateRecords();" />カットオフ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ダッフルコート" onclick="updateRecords();" />ダッフルコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:フライトジャケット" onclick="updateRecords();" />フライトジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ベスト" onclick="updateRecords();" />ベスト</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ゴーグルジャケット" onclick="updateRecords();" />ゴーグルジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ガーズコート" onclick="updateRecords();" />ガーズコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ハリントンジャケット" onclick="updateRecords();" />ハリントンジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:パーカー" onclick="updateRecords();" />パーカー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ジャケット" onclick="updateRecords();" />ジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:レザージャケット" onclick="updateRecords();" />レザージャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:イートンジャケット" onclick="updateRecords();" />イートンジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:オペラコート" onclick="updateRecords();" />オペラコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:外套" onclick="updateRecords();" />外套</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:アノラック" onclick="updateRecords();" />アノラック</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:パルト" onclick="updateRecords();" />パルト</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:Pコート" onclick="updateRecords();" />Pコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ポンチョ" onclick="updateRecords();" />ポンチョ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:レインコート" onclick="updateRecords();" />レインコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ローブ" onclick="updateRecords();" />ローブ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:サファリジャケット" onclick="updateRecords();" />サファリジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ボレロ" onclick="updateRecords();" />ボレロ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:シュラッグ" onclick="updateRecords();" />シュラッグ</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:スキーウェア" onclick="updateRecords();" />スキーウェア</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:着る毛布" onclick="updateRecords();" />着る毛布</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:スモーキングジャケット" onclick="updateRecords();" />スモーキングジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:スポーツジャケット" onclick="updateRecords();" />スポーツジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:トレンチコート" onclick="updateRecords();" />トレンチコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:アルスターコート" onclick="updateRecords();" />アルスターコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ウェストコート" onclick="updateRecords();" />ウェストコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ウインドブレーカー" onclick="updateRecords();" />ウインドブレーカー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:インバネスコート" onclick="updateRecords();" />インバネスコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ギャバジン" onclick="updateRecords();" />ギャバジン</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:クローク" onclick="updateRecords();" />クローク</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ステンカラーコート" onclick="updateRecords();" />ステンカラーコート</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:マント" onclick="updateRecords();" />マント</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ジャンパー" onclick="updateRecords();" />ジャンパー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ジージャン" onclick="updateRecords();" />ジージャン</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:スカジャン" onclick="updateRecords();" />スカジャン</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ダウンジャケット" onclick="updateRecords();" />ダウンジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ノーフォークジャケット" onclick="updateRecords();" />ノーフォークジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:ドリズラー" onclick="updateRecords();" />ドリズラー</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:バトルジャケット" onclick="updateRecords();" />バトルジャケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="アンダーウェア:スウィングトップ" onclick="updateRecords();" />スウィングトップ</label></td></tr>
+      <tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:エプロン" onclick="updateRecords();" />エプロン</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ブレザー" onclick="updateRecords();" />ブレザー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ブリティッシュウォーマー" onclick="updateRecords();" />ブリティッシュウォーマー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:カグール" onclick="updateRecords();" />カグール</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ケープ" onclick="updateRecords();" />ケープ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:チェスターフィールドコート" onclick="updateRecords();" />チェスターフィールドコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:コート (衣類)" onclick="updateRecords();" />コート (衣類)</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:カバートコート" onclick="updateRecords();" />カバートコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:カットオフ" onclick="updateRecords();" />カットオフ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ダッフルコート" onclick="updateRecords();" />ダッフルコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:フライトジャケット" onclick="updateRecords();" />フライトジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ベスト" onclick="updateRecords();" />ベスト</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ゴーグルジャケット" onclick="updateRecords();" />ゴーグルジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ガーズコート" onclick="updateRecords();" />ガーズコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ハリントンジャケット" onclick="updateRecords();" />ハリントンジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:パーカー" onclick="updateRecords();" />パーカー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ジャケット" onclick="updateRecords();" />ジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:レザージャケット" onclick="updateRecords();" />レザージャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:イートンジャケット" onclick="updateRecords();" />イートンジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:オペラコート" onclick="updateRecords();" />オペラコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:外套" onclick="updateRecords();" />外套</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:アノラック" onclick="updateRecords();" />アノラック</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:パルト" onclick="updateRecords();" />パルト</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:Pコート" onclick="updateRecords();" />Pコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ポンチョ" onclick="updateRecords();" />ポンチョ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:レインコート" onclick="updateRecords();" />レインコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ローブ" onclick="updateRecords();" />ローブ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:サファリジャケット" onclick="updateRecords();" />サファリジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ボレロ" onclick="updateRecords();" />ボレロ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:シュラッグ" onclick="updateRecords();" />シュラッグ</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:スキーウェア" onclick="updateRecords();" />スキーウェア</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:着る毛布" onclick="updateRecords();" />着る毛布</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:スモーキングジャケット" onclick="updateRecords();" />スモーキングジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:スポーツジャケット" onclick="updateRecords();" />スポーツジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:トレンチコート" onclick="updateRecords();" />トレンチコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:アルスターコート" onclick="updateRecords();" />アルスターコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ウェストコート" onclick="updateRecords();" />ウェストコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ウインドブレーカー" onclick="updateRecords();" />ウインドブレーカー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:インバネスコート" onclick="updateRecords();" />インバネスコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ギャバジン" onclick="updateRecords();" />ギャバジン</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:クローク" onclick="updateRecords();" />クローク</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ステンカラーコート" onclick="updateRecords();" />ステンカラーコート</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:マント" onclick="updateRecords();" />マント</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ジャンパー" onclick="updateRecords();" />ジャンパー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ジージャン" onclick="updateRecords();" />ジージャン</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:スカジャン" onclick="updateRecords();" />スカジャン</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ダウンジャケット" onclick="updateRecords();" />ダウンジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ノーフォークジャケット" onclick="updateRecords();" />ノーフォークジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:ドリズラー" onclick="updateRecords();" />ドリズラー</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:バトルジャケット" onclick="updateRecords();" />バトルジャケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="アンダーウェア" value="アンダーウェア:スウィングトップ" onclick="updateRecords();" />スウィングトップ</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(履物);" />
   <table border="1">
     <caption>履物</caption>
     <thead>
@@ -908,27 +919,28 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="履物:スニーカー" onclick="updateRecords();" />スニーカー</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:ブーツ" onclick="updateRecords();" />ブーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:パンプス" onclick="updateRecords();" />パンプス</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:革靴" onclick="updateRecords();" />革靴</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:ビーチサンダル" onclick="updateRecords();" />ビーチサンダル</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:パンティストッキング" onclick="updateRecords();" />パンティストッキング</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:サンダル" onclick="updateRecords();" />サンダル</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:靴" onclick="updateRecords();" />靴</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:スパッツ" onclick="updateRecords();" />スパッツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:スリッパ" onclick="updateRecords();" />スリッパ</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:靴下" onclick="updateRecords();" />靴下</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:ストッキング" onclick="updateRecords();" />ストッキング</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:メリージェーン" onclick="updateRecords();" />メリージェーン</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:運動靴" onclick="updateRecords();" />運動靴</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:バスケットシューズ" onclick="updateRecords();" />バスケットシューズ</label></td></tr>
-<tr><td><label><input type="checkbox" value="履物:前ゴムシューズ" onclick="updateRecords();" />前ゴムシューズ</label></td></tr>
+      <tr><td><label><input type="checkbox" name="履物" value="履物:スニーカー" onclick="updateRecords();" />スニーカー</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:ブーツ" onclick="updateRecords();" />ブーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:パンプス" onclick="updateRecords();" />パンプス</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:革靴" onclick="updateRecords();" />革靴</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:ビーチサンダル" onclick="updateRecords();" />ビーチサンダル</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:パンティストッキング" onclick="updateRecords();" />パンティストッキング</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:サンダル" onclick="updateRecords();" />サンダル</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:靴" onclick="updateRecords();" />靴</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:スパッツ" onclick="updateRecords();" />スパッツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:スリッパ" onclick="updateRecords();" />スリッパ</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:靴下" onclick="updateRecords();" />靴下</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:ストッキング" onclick="updateRecords();" />ストッキング</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:メリージェーン" onclick="updateRecords();" />メリージェーン</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:運動靴" onclick="updateRecords();" />運動靴</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:バスケットシューズ" onclick="updateRecords();" />バスケットシューズ</label></td></tr>
+<tr><td><label><input type="checkbox" name="履物" value="履物:前ゴムシューズ" onclick="updateRecords();" />前ゴムシューズ</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(かぶりもの);" />
   <table border="1">
     <caption>かぶりもの</caption>
     <thead>
@@ -937,32 +949,33 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="かぶりもの:野球帽" onclick="updateRecords();" />野球帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ベレー帽" onclick="updateRecords();" />ベレー帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:キャップ" onclick="updateRecords();" />キャップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:中折れ帽" onclick="updateRecords();" />中折れ帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ハット" onclick="updateRecords();" />ハット</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ヘルメット" onclick="updateRecords();" />ヘルメット</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:頭巾" onclick="updateRecords();" />頭巾</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ニット帽" onclick="updateRecords();" />ニット帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:トーク" onclick="updateRecords();" />トーク</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ターバン" onclick="updateRecords();" />ターバン</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ベール" onclick="updateRecords();" />ベール</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:シルクハット" onclick="updateRecords();" />シルクハット</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ホンブルグ・ハット" onclick="updateRecords();" />ホンブルグ・ハット</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:山高帽" onclick="updateRecords();" />山高帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ハンチング帽" onclick="updateRecords();" />ハンチング帽</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:キャスケット" onclick="updateRecords();" />キャスケット</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:麦わら帽子" onclick="updateRecords();" />麦わら帽子</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ヘアバンド" onclick="updateRecords();" />ヘアバンド</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ファシネーター" onclick="updateRecords();" />ファシネーター</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ウィッグ" onclick="updateRecords();" />ウィッグ</label></td></tr>
-<tr><td><label><input type="checkbox" value="かぶりもの:ヘッドギア" onclick="updateRecords();" />ヘッドギア</label></td></tr>
+      <tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:野球帽" onclick="updateRecords();" />野球帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ベレー帽" onclick="updateRecords();" />ベレー帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:キャップ" onclick="updateRecords();" />キャップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:中折れ帽" onclick="updateRecords();" />中折れ帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ハット" onclick="updateRecords();" />ハット</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ヘルメット" onclick="updateRecords();" />ヘルメット</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:頭巾" onclick="updateRecords();" />頭巾</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ニット帽" onclick="updateRecords();" />ニット帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:トーク" onclick="updateRecords();" />トーク</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ターバン" onclick="updateRecords();" />ターバン</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ベール" onclick="updateRecords();" />ベール</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:シルクハット" onclick="updateRecords();" />シルクハット</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ホンブルグ・ハット" onclick="updateRecords();" />ホンブルグ・ハット</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:山高帽" onclick="updateRecords();" />山高帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ハンチング帽" onclick="updateRecords();" />ハンチング帽</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:キャスケット" onclick="updateRecords();" />キャスケット</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:麦わら帽子" onclick="updateRecords();" />麦わら帽子</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ヘアバンド" onclick="updateRecords();" />ヘアバンド</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ファシネーター" onclick="updateRecords();" />ファシネーター</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ウィッグ" onclick="updateRecords();" />ウィッグ</label></td></tr>
+<tr><td><label><input type="checkbox" name="かぶりもの" value="かぶりもの:ヘッドギア" onclick="updateRecords();" />ヘッドギア</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(寝巻き着);" />
   <table border="1">
     <caption>寝巻き着</caption>
     <thead>
@@ -971,19 +984,20 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="寝巻き着:ベビードール" onclick="updateRecords();" />ベビードール</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:ブランケットスリーパー" onclick="updateRecords();" />ブランケットスリーパー</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:ネグリジェ" onclick="updateRecords();" />ネグリジェ</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:ナイトガウン" onclick="updateRecords();" />ナイトガウン</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:ナイトシャツ" onclick="updateRecords();" />ナイトシャツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:パジャマ" onclick="updateRecords();" />パジャマ</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:ナイトキャップ" onclick="updateRecords();" />ナイトキャップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="寝巻き着:バスローブ" onclick="updateRecords();" />バスローブ</label></td></tr>
+      <tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ベビードール" onclick="updateRecords();" />ベビードール</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ブランケットスリーパー" onclick="updateRecords();" />ブランケットスリーパー</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ネグリジェ" onclick="updateRecords();" />ネグリジェ</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ナイトガウン" onclick="updateRecords();" />ナイトガウン</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ナイトシャツ" onclick="updateRecords();" />ナイトシャツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:パジャマ" onclick="updateRecords();" />パジャマ</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:ナイトキャップ" onclick="updateRecords();" />ナイトキャップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="寝巻き着" value="寝巻き着:バスローブ" onclick="updateRecords();" />バスローブ</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(水着);" />
   <table border="1">
     <caption>水着</caption>
     <thead>
@@ -992,26 +1006,27 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="水着:ビキニ (水着)" onclick="updateRecords();" />ビキニ (水着)</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ブルキニ" onclick="updateRecords();" />ブルキニ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ボードショーツ" onclick="updateRecords();" />ボードショーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ドライスーツ" onclick="updateRecords();" />ドライスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:モノキニ" onclick="updateRecords();" />モノキニ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ワンピース" onclick="updateRecords();" />ワンピース</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ラッシュガード" onclick="updateRecords();" />ラッシュガード</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:競泳パンツ" onclick="updateRecords();" />競泳パンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ブーメランパンツ" onclick="updateRecords();" />ブーメランパンツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:水遊びおむつ" onclick="updateRecords();" />水遊びおむつ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:トランクス" onclick="updateRecords();" />トランクス</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:スクール水着" onclick="updateRecords();" />スクール水着</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:ウェットスーツ" onclick="updateRecords();" />ウェットスーツ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:スイムキャップ" onclick="updateRecords();" />スイムキャップ</label></td></tr>
-<tr><td><label><input type="checkbox" value="水着:レオタード" onclick="updateRecords();" />レオタード</label></td></tr>
+      <tr><td><label><input type="checkbox" name="水着" value="水着:ビキニ (水着)" onclick="updateRecords();" />ビキニ (水着)</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ブルキニ" onclick="updateRecords();" />ブルキニ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ボードショーツ" onclick="updateRecords();" />ボードショーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ドライスーツ" onclick="updateRecords();" />ドライスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:モノキニ" onclick="updateRecords();" />モノキニ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ワンピース" onclick="updateRecords();" />ワンピース</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ラッシュガード" onclick="updateRecords();" />ラッシュガード</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:競泳パンツ" onclick="updateRecords();" />競泳パンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ブーメランパンツ" onclick="updateRecords();" />ブーメランパンツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:水遊びおむつ" onclick="updateRecords();" />水遊びおむつ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:トランクス" onclick="updateRecords();" />トランクス</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:スクール水着" onclick="updateRecords();" />スクール水着</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:ウェットスーツ" onclick="updateRecords();" />ウェットスーツ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:スイムキャップ" onclick="updateRecords();" />スイムキャップ</label></td></tr>
+<tr><td><label><input type="checkbox" name="水着" value="水着:レオタード" onclick="updateRecords();" />レオタード</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(装身具);" />
   <table border="1">
     <caption>装身具</caption>
     <thead>
@@ -1020,58 +1035,59 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="装身具:かばん" onclick="updateRecords();" />かばん</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:アスコットタイ" onclick="updateRecords();" />アスコットタイ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:アンティーク・ジュエリー" onclick="updateRecords();" />アンティーク・ジュエリー</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:イアリング" onclick="updateRecords();" />イアリング</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:イヤホン" onclick="updateRecords();" />イヤホン</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ウエストポーチ" onclick="updateRecords();" />ウエストポーチ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:エコバッグ" onclick="updateRecords();" />エコバッグ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:カフリンクス" onclick="updateRecords();" />カフリンクス</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:カマーバンド" onclick="updateRecords();" />カマーバンド</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ガラケー" onclick="updateRecords();" />ガラケー</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:サスペンダー" onclick="updateRecords();" />サスペンダー</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:サッシュ" onclick="updateRecords();" />サッシュ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:サングラス" onclick="updateRecords();" />サングラス</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ショール" onclick="updateRecords();" />ショール</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:スカーフ" onclick="updateRecords();" />スカーフ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:スヌード" onclick="updateRecords();" />スヌード</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:スマホ" onclick="updateRecords();" />スマホ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:タブレット" onclick="updateRecords();" />タブレット</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ネクタイ" onclick="updateRecords();" />ネクタイ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ネッカチーフ" onclick="updateRecords();" />ネッカチーフ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ネックレス" onclick="updateRecords();" />ネックレス</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ノートPC" onclick="updateRecords();" />ノートPC</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ハンドバッグ" onclick="updateRecords();" />ハンドバッグ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:バンダナ" onclick="updateRecords();" />バンダナ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ピアス" onclick="updateRecords();" />ピアス</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ヘアバンド" onclick="updateRecords();" />ヘアバンド</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ヘッドホン" onclick="updateRecords();" />ヘッドホン</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ベルト" onclick="updateRecords();" />ベルト</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ボウ" onclick="updateRecords();" />ボウ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ポケットプロテクター" onclick="updateRecords();" />ポケットプロテクター</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ポケベル" onclick="updateRecords();" />ポケベル</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:マフ" onclick="updateRecords();" />マフ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:マフラー" onclick="updateRecords();" />マフラー</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:ミサンガ" onclick="updateRecords();" />ミサンガ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:リボン" onclick="updateRecords();" />リボン</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:リュックサック" onclick="updateRecords();" />リュックサック</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:傘" onclick="updateRecords();" />傘</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:小銭入れ" onclick="updateRecords();" />小銭入れ</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:懐中時計" onclick="updateRecords();" />懐中時計</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:手袋" onclick="updateRecords();" />手袋</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:眼鏡" onclick="updateRecords();" />眼鏡</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:脚絆" onclick="updateRecords();" />脚絆</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:腕時計" onclick="updateRecords();" />腕時計</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:腕輪" onclick="updateRecords();" />腕輪</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:財布" onclick="updateRecords();" />財布</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:首輪" onclick="updateRecords();" />首輪</label></td></tr>
-<tr><td><label><input type="checkbox" value="装身具:鈴" onclick="updateRecords();" />鈴</label></td></tr>
+      <tr><td><label><input type="checkbox" name="装身具" value="装身具:かばん" onclick="updateRecords();" />かばん</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:アスコットタイ" onclick="updateRecords();" />アスコットタイ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:アンティーク・ジュエリー" onclick="updateRecords();" />アンティーク・ジュエリー</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:イアリング" onclick="updateRecords();" />イアリング</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:イヤホン" onclick="updateRecords();" />イヤホン</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ウエストポーチ" onclick="updateRecords();" />ウエストポーチ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:エコバッグ" onclick="updateRecords();" />エコバッグ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:カフリンクス" onclick="updateRecords();" />カフリンクス</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:カマーバンド" onclick="updateRecords();" />カマーバンド</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ガラケー" onclick="updateRecords();" />ガラケー</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:サスペンダー" onclick="updateRecords();" />サスペンダー</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:サッシュ" onclick="updateRecords();" />サッシュ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:サングラス" onclick="updateRecords();" />サングラス</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ショール" onclick="updateRecords();" />ショール</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:スカーフ" onclick="updateRecords();" />スカーフ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:スヌード" onclick="updateRecords();" />スヌード</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:スマホ" onclick="updateRecords();" />スマホ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:タブレット" onclick="updateRecords();" />タブレット</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ネクタイ" onclick="updateRecords();" />ネクタイ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ネッカチーフ" onclick="updateRecords();" />ネッカチーフ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ネックレス" onclick="updateRecords();" />ネックレス</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ノートPC" onclick="updateRecords();" />ノートPC</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ハンドバッグ" onclick="updateRecords();" />ハンドバッグ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:バンダナ" onclick="updateRecords();" />バンダナ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ピアス" onclick="updateRecords();" />ピアス</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ヘアバンド" onclick="updateRecords();" />ヘアバンド</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ヘッドホン" onclick="updateRecords();" />ヘッドホン</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ベルト" onclick="updateRecords();" />ベルト</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ボウ" onclick="updateRecords();" />ボウ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ポケットプロテクター" onclick="updateRecords();" />ポケットプロテクター</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ポケベル" onclick="updateRecords();" />ポケベル</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:マフ" onclick="updateRecords();" />マフ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:マフラー" onclick="updateRecords();" />マフラー</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:ミサンガ" onclick="updateRecords();" />ミサンガ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:リボン" onclick="updateRecords();" />リボン</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:リュックサック" onclick="updateRecords();" />リュックサック</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:傘" onclick="updateRecords();" />傘</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:小銭入れ" onclick="updateRecords();" />小銭入れ</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:懐中時計" onclick="updateRecords();" />懐中時計</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:手袋" onclick="updateRecords();" />手袋</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:眼鏡" onclick="updateRecords();" />眼鏡</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:脚絆" onclick="updateRecords();" />脚絆</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:腕時計" onclick="updateRecords();" />腕時計</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:腕輪" onclick="updateRecords();" />腕輪</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:財布" onclick="updateRecords();" />財布</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:首輪" onclick="updateRecords();" />首輪</label></td></tr>
+<tr><td><label><input type="checkbox" name="装身具" value="装身具:鈴" onclick="updateRecords();" />鈴</label></td></tr>
     </tbody>
   </table>
 </div>
 
 <div class="charaTableArea">
+  <input type="button" value="ランダム設定" onclick="setRandomContent(その他);" />
   <table border="1">
     <caption>その他</caption>
     <thead>
@@ -1080,19 +1096,19 @@ table caption:before {
       </tr>
     </thead>
     <tbody>
-      <tr><td><label><input type="checkbox" value="その他:猫耳" onclick="updateRecords();" />猫耳</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:犬耳" onclick="updateRecords();" />犬耳</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:しっぽ" onclick="updateRecords();" />しっぽ</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:角" onclick="updateRecords();" />角</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:羽" onclick="updateRecords();" />羽</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:触覚" onclick="updateRecords();" />触覚</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:切り傷" onclick="updateRecords();" />切り傷</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:四肢欠損" onclick="updateRecords();" />四肢欠損</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:眼帯" onclick="updateRecords();" />眼帯</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:あざ" onclick="updateRecords();" />あざ</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:火傷" onclick="updateRecords();" />火傷</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:包帯" onclick="updateRecords();" />包帯</label></td></tr>
-<tr><td><label><input type="checkbox" value="その他:骨折" onclick="updateRecords();" />骨折</label></td></tr>
+      <tr><td><label><input type="checkbox" name="その他" value="その他:猫耳" onclick="updateRecords();" />猫耳</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:犬耳" onclick="updateRecords();" />犬耳</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:しっぽ" onclick="updateRecords();" />しっぽ</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:角" onclick="updateRecords();" />角</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:羽" onclick="updateRecords();" />羽</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:触覚" onclick="updateRecords();" />触覚</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:切り傷" onclick="updateRecords();" />切り傷</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:四肢欠損" onclick="updateRecords();" />四肢欠損</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:眼帯" onclick="updateRecords();" />眼帯</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:あざ" onclick="updateRecords();" />あざ</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:火傷" onclick="updateRecords();" />火傷</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:包帯" onclick="updateRecords();" />包帯</label></td></tr>
+<tr><td><label><input type="checkbox" name="その他" value="その他:骨折" onclick="updateRecords();" />骨折</label></td></tr>
     </tbody>
   </table>
 </div>

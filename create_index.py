@@ -30,6 +30,7 @@ def main():
             '<label>' \
                 '<input' \
                 ' type="checkbox"' \
+                ' name="{title}"' \
                 ' value="{title}:{text}"' \
                 ' onclick="updateRecords();"' \
                 ' />' \

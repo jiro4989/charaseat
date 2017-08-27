@@ -25,6 +25,18 @@ function clearCheck() {
   document.getElementById("selectedTextArea").value = "";
 }
 
+function clearCheckContent(name) {
+  console.log("clearCheck");
+  var inputs = document.getElementsByTagName("input");
+  for (var i=0; i<inputs.length; i++) {
+    var input = inputs[i];
+    if (input.name === name) {
+      input.checked = false;
+    }
+  }
+  document.getElementById("selectedTextArea").value = "";
+}
+
 /**
  * キーマッピングする。
  */
