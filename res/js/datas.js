@@ -1,32 +1,6 @@
 var selectedIndex = 0;
 var tableMax = document.getElementsByClassName("charaTableArea").length;
 
-function setDatas(tableId, datas, title) {
-  console.log("setDatas");
-  var tbody = document.getElementById(tableId).getElementsByTagName("tbody")[0];
-  for (var i=0; i<datas.length; i++) {
-    var text = datas[i];
-
-    var tr = document.createElement("tr");
-    var contentTd = document.createElement("td");
-
-    var checkbox = document.createElement("input");
-    var label = document.createElement("label");
-    checkbox.type = "checkbox";
-    checkbox.value = title + ":" + text;
-    checkbox.onclick = function() {
-      updateRecords();
-    }
-    label.append(checkbox);
-    label.append(text);
-
-    contentTd.append(label);
-
-    tr.append(contentTd);
-    tbody.append(tr);
-  }
-}
-
 function updateRecords() {
   console.log("updateRecords");
   var textarea = document.getElementById("selectedTextArea");

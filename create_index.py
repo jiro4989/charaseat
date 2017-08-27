@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import re
 from os.path import splitext, basename
 
 def main():
@@ -25,6 +26,16 @@ def main():
             , "res/data/オプション.html"
             ]
 
+    checkboxtext = \
+            '<label>' \
+                '<input' \
+                ' type="checkbox"' \
+                ' value="{title}:{text}"' \
+                ' onclick="updateRecords();"' \
+                ' />' \
+                '{fulltext}' \
+            '</label>'
+
     tables = []
     for filepath in datas:
         with open("table.html") as table:
@@ -35,7 +46,13 @@ def main():
                 line = datafile.readline()
                 trs = []
                 while line:
-                    text = "<tr><td>{}</td></tr>".format(line)
+                    if line.startswith("<"):
+                        text = re.sub(r"</?a[^>]+>", "", line)
+                    else:
+                        text = line
+
+                    text = checkboxtext.format(title=caption, text=text, fulltext=line)
+                    text = "<tr><td>{}</td></tr>".format(text)
                     trs.append(text)
                     line = datafile.readline()
                 tbody = "\n".join(trs)
