@@ -518,15 +518,15 @@ var OPTION_TEXT = [
 
 window.onload = function() {
   console.log("window.onload");
-  setDatas("firstPersonTable", FIRST_PERSON_TEXT);
-  setDatas("charaTable", CHARA_TEXT);
-  setDatas("hairTable", HAIR_TEXT);
-  setDatas("clothTable", CLOTH_TEXT);
-  setDatas("optionTable", OPTION_TEXT);
+  setDatas("firstPersonTable", FIRST_PERSON_TEXT, "一人称");
+  setDatas("charaTable", CHARA_TEXT, "性格");
+  setDatas("hairTable", HAIR_TEXT, "髪型");
+  setDatas("clothTable", CLOTH_TEXT, "衣類");
+  setDatas("optionTable", OPTION_TEXT, "オプション");
   setOnClick();
 }
 
-function setDatas(tableId, datas) {
+function setDatas(tableId, datas, title) {
   console.log("setDatas");
   var tbody = document.getElementById(tableId).getElementsByTagName("tbody")[0];
   for (var i=0; i<datas.length; i++) {
@@ -539,7 +539,7 @@ function setDatas(tableId, datas) {
     var checkbox = document.createElement("input");
     var label = document.createElement("label");
     checkbox.type = "checkbox";
-    checkbox.value = text;
+    checkbox.value = title + ":" + text;
     label.append(checkbox);
     label.append(text);
 
@@ -571,7 +571,7 @@ function updateRecords() {
   for (var i=0; i<inputs.length; i++) {
     var input = inputs[i];
     if (input.checked) {
-      textarea.value += input.value;
+      textarea.value += input.value + "\n";
     }
   }
 }
