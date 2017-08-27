@@ -7,5 +7,5 @@ function setRandom() {
       inputs[i].checked = true;
     }
   }
-
+  updateRecords();
 }
