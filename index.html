@@ -599,7 +599,17 @@ body {
 .mainarea {
   display: inline-block;
   margin-left: 5px;
-  width: 300px;
+  width: 20%;
+  height: 80%;
+  overflow-y: auto;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.optionarea {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80%;
   height: 80%;
   overflow-y: auto;
   border: 1px solid #000;
@@ -637,7 +647,7 @@ table caption:before {
       <textarea id="selectedTextArea" cols="30" rows="50" onfocus="this.select();"></textarea>
     </div>
 
-    <div class="mainarea">
+    <div class="optionarea">
       <h2>設定項目</h2>
 
       <div class="charaTableArea">
