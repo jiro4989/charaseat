@@ -23,7 +23,7 @@ def main():
             , "res/data/水着.html"
             , "res/data/装身具.html"
 
-            , "res/data/オプション.html"
+            , "res/data/その他.html"
             ]
 
     checkboxtext = \
