@@ -589,23 +589,23 @@ function mappingKeys() {
 
       // 上から,h, j, k, l
       switch (code) {
-        case 72: focus(--selectedIndex); break;
+        case 72: --selectedIndex; focus(); break;
         case 74: scroll(100); break;
         case 75: scroll(-100); break;
-        case 76: focus(++selectedIndex); break;
+        case 76: ++selectedIndex; focus(); break;
       }
     }
   }, true);
 }
 
-function focus(index) {
+function focus() {
   var areas = document.getElementsByClassName("charaTableArea");
-  if (index < 0) {
-    index = 4;
-  } else if (4 < index) {
-    index = 0;
+  if (selectedIndex < 0) {
+    selectedIndex = 4;
+  } else if (4 < selectedIndex) {
+    selectedIndex = 0;
   }
-  var area = areas[index];
+  var area = areas[selectedIndex];
   area.getElementsByTagName("input")[0].focus();
 }
 
