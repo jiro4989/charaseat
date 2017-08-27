@@ -1,5 +1,5 @@
 var selectedIndex = 0;
-var tableMax = 5;
+var tableMax = document.getElementsByClassName("charaTableArea").length;
 
 function setDatas(tableId, datas, title) {
   console.log("setDatas");

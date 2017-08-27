@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>キャラ設定シート</title>
+
+    <script src="https://jiro4989.github.io/charaseat/res/js/const.js"></script>
+    <script src="https://jiro4989.github.io/charaseat/res/js/datas.js"></script>
+    <script src="https://jiro4989.github.io/charaseat/res/js/random.js"></script>
+    <script src="https://jiro4989.github.io/charaseat/res/js/alert.js"></script>
+
+    <script> // {{{
+
+window.onload = function() {
+  console.log("window.onload");
+  setDatas("firstPersonTable", FIRST_PERSON_TEXT, "一人称");
+  setDatas("secondPersonTable", SECOND_PERSON_TEXT, "二人称");
+  setDatas("charaTable", CHARA_TEXT, "性格");
+  setDatas("hairTable", HAIR_TEXT, "髪型");
+  setDatas("clothTable", CLOTH_TEXT, "衣類");
+  setDatas("optionTable", OPTION_TEXT, "オプション");
+  mappingKeys();
+}
+
+    </script> <!-- }}} -->
+
+  <style> /* {{{ */
+
+body {
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  counter-reset: number 0;
+}
+
+.mainarea {
+  display: inline-block;
+  margin-left: 5px;
+  width: 20%;
+  height: 80%;
+  overflow-y: auto;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #add8e6;
+}
+
+.optionarea {
+  display: inline-block;
+  margin-left: 5px;
+  width: 75%;
+  height: 80%;
+  overflow-y: auto;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.charaTableArea {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 43%;
+  overflow-y: auto;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+label { border-radius: 5px; }
+label:hover { background-color: lightblue; }
+
+table caption:before {
+  counter-increment: number;
+  content: "表" counter(number) " ";
+}
+
+  </style> <!-- }}} -->
+
+  </head>
+  <body>
+    <h1>キャラ設定シート</h1>
+    <input type="button" value="設定クリア" onclick="clearCheck();">
+    <input type="button" value="ランダム設定" onclick="setRandom();">
+    <input type="button" value="ショートカットキー" onclick="showAlert();">
+    <hr>
+
+    <div class="mainarea">
+      <h2>選択した要素</h2>
+      <textarea id="selectedTextArea" cols="40" rows="50" onfocus="this.select();"></textarea>
+    </div>
+
+    <div class="optionarea">
+      <h2>設定項目</h2>
+
+      <div class="charaTableArea">
+        <table id="firstPersonTable" border="1">
+          <caption>一人称</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="charaTableArea">
+        <table id="secondPersonTable" border="1">
+          <caption>二人称</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="charaTableArea">
+        <table id="charaTable" border="1">
+          <caption>性格</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="charaTableArea">
+        <table id="hairTable" border="1">
+          <caption>髪型</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="charaTableArea">
+        <table id="clothTable" border="1">
+          <caption>服装</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="charaTableArea">
+        <table id="optionTable" border="1">
+          <caption>オプション</caption>
+          <thead>
+            <tr style="background-color: yellow;">
+              <td>項目</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </body>
+</html>
