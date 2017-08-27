@@ -522,6 +522,7 @@ window.onload = function() {
   setDatas("hairTable", HAIR_TEXT, "髪型");
   setDatas("clothTable", CLOTH_TEXT, "衣類");
   setDatas("optionTable", OPTION_TEXT, "オプション");
+  mappingKeys();
 }
 
 function setDatas(tableId, datas, title) {
@@ -574,6 +575,38 @@ function clearCheck() {
     input.checked = false;
   }
   document.getElementById("selectedTextArea").value = "";
+}
+
+var selectedIndex = 0;
+
+/**
+ * キーマッピングする。
+ */
+function mappingKeys() {
+  window.addEventListener("keydown", function(e) {
+    if (e != null) {
+      var code = e.keyCode;
+
+      // 上から,h, j, k, l
+      switch (code) {
+        case 72: focus(++selectedIndex); break;
+        case 74: scroll(100); break;
+        case 75: scroll(-100); break;
+        case 76: focus(--selectedIndex); break;
+      }
+    }
+  }, true);
+}
+
+function focus(index) {
+  var areas = document.getElementsByClassName("charaTableArea");
+  if (index < 0) {
+    index = 4;
+  } else if (4 < index) {
+    index = 0;
+  }
+  var area = areas[index];
+  area.getElementsByTagName("input")[0].focus();
 }
 
     </script> <!-- }}} -->
