@@ -47,6 +47,9 @@ def main():
                 trs = []
                 while line:
                     line = line.rstrip("\n")
+                    if line == "":
+                        continue
+
                     if line.startswith("<"):
                         text = re.sub(r"</?[^>]+>", "", line)
                     else:
