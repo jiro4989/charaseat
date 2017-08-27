@@ -46,8 +46,9 @@ def main():
                 line = datafile.readline()
                 trs = []
                 while line:
+                    line = line.rstrip("\n")
                     if line.startswith("<"):
-                        text = re.sub(r"</?a[^>]+>", "", line)
+                        text = re.sub(r"</?[^>]+>", "", line)
                     else:
                         text = line
 
